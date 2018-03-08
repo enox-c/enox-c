@@ -1,15 +1,15 @@
 [Unit]
-Description=Dash's distributed currency daemon
+Description=Enox's distributed currency daemon
 After=network.target
 
 [Service]
-User=dashcore
-Group=dashcore
+User=enoxcore
+Group=enoxcore
 
 Type=forking
-PIDFile=/var/lib/dashd/dashd.pid
-ExecStart=/usr/bin/dashd -daemon -pid=/var/lib/dashd/dashd.pid \
--conf=/etc/dashcore/dash.conf -datadir=/var/lib/dashd -disablewallet
+PIDFile=/var/lib/enoxd/enoxd.pid
+ExecStart=/usr/bin/enoxd -daemon -pid=/var/lib/enoxd/enoxd.pid \
+-conf=/etc/enoxcore/enox.conf -datadir=/var/lib/enoxd -disablewallet
 
 Restart=always
 PrivateTmp=true

@@ -1,36 +1,36 @@
 #!/bin/bash
 #
-#  dashd The Dash Core server.
+#  enoxd The Enox Core server.
 #
 #
 # chkconfig: 345 80 20
-# description: dashd
-# processname: dashd
+# description: enoxd
+# processname: enoxd
 #
 
 # Source function library.
 . /etc/init.d/functions
 
-# you can override defaults in /etc/sysconfig/dashd, see below
-if [ -f /etc/sysconfig/dashd ]; then
-        . /etc/sysconfig/dashd
+# you can override defaults in /etc/sysconfig/enoxd, see below
+if [ -f /etc/sysconfig/enoxd ]; then
+        . /etc/sysconfig/enoxd
 fi
 
 RETVAL=0
 
-prog=dashd
-# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/dashd
-lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/dashd}
+prog=enoxd
+# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/enoxd
+lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/enoxd}
 
-# dashd defaults to /usr/bin/dashd, override with BITCOIND_BIN
-dashd=${BITCOIND_BIN-/usr/bin/dashd}
+# enoxd defaults to /usr/bin/enoxd, override with BITCOIND_BIN
+enoxd=${BITCOIND_BIN-/usr/bin/enoxd}
 
-# dashd opts default to -disablewallet, override with BITCOIND_OPTS
-dashd_opts=${BITCOIND_OPTS--disablewallet}
+# enoxd opts default to -disablewallet, override with BITCOIND_OPTS
+enoxd_opts=${BITCOIND_OPTS--disablewallet}
 
 start() {
     echo -n $"Starting $prog: "
-    daemon $DAEMONOPTS $dashd $dashd_opts
+    daemon $DAEMONOPTS $enoxd $enoxd_opts
     RETVAL=$?
     echo
     [ $RETVAL -eq 0 ] && touch $lockfile

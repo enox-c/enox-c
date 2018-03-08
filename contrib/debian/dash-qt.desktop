@@ -1,12 +1,12 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Dash
-Comment=Dash P2P Cryptocurrency
-Comment[fr]=Dash, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=Dash, eşten eşe kriptografik sanal para birimi
-Exec=dash-qt %u
+Name=Enox
+Comment=Enox P2P Cryptocurrency
+Comment[fr]=Enox, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Enox, eşten eşe kriptografik sanal para birimi
+Exec=enox-qt %u
 Terminal=false
 Type=Application
-Icon=dash128
-MimeType=x-scheme-handler/dash;
+Icon=enox128
+MimeType=x-scheme-handler/enox;
 Categories=Office;Finance;
