@@ -1,7 +1,0 @@
-[main]
-host = https://www.transifex.com
-
-[enox.qt-translation-012x]
-file_filter = src/qt/locale/enox_<lang>.ts
-source_file = src/qt/locale/enox_en.ts
-source_lang = en
