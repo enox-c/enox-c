@@ -10,10 +10,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both civitasd and civitas-qt, to make it harder for attackers to
+ * for both enoxd and enox-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("Civitas Core");
+const std::string CLIENT_NAME("Enox Core");
 
 /**
  * Client version number

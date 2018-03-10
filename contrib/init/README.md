@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: civitasd.service
-Upstart: civitasd.conf
-OpenRC:  civitasd.openrc
-         civitasd.openrcconf
-CentOS:  civitasd.init
+SystemD: enoxd.service
+Upstart: enoxd.conf
+OpenRC:  enoxd.openrc
+         enoxd.openrcconf
+CentOS:  enoxd.init
 
 have been made available to assist packagers in creating node packages here.
 

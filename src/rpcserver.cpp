@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017 The Civitas developers
+// Copyright (c) 2017 The Enox developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -238,10 +238,10 @@ Value stop(const Array& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop Civitas server.");
+            "\nStop Enox server.");
     // Shutdown will take long enough that the response should get back
     StartShutdown();
-    return "Civitas server stopping";
+    return "Enox server stopping";
 }
 
 
@@ -318,36 +318,36 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* Civitas features */
-        {"civitas", "masternode", &masternode, true, true, false},
-        {"civitas", "listmasternodes", &listmasternodes, true, true, false},
-        {"civitas", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"civitas", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"civitas", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"civitas", "masternodedebug", &masternodedebug, true, true, false},
-        {"civitas", "startmasternode", &startmasternode, true, true, false},
-        {"civitas", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"civitas", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"civitas", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"civitas", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"civitas", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"civitas", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"civitas", "mnbudget", &mnbudget, true, true, false},
-        {"civitas", "preparebudget", &preparebudget, true, true, false},
-        {"civitas", "submitbudget", &submitbudget, true, true, false},
-        {"civitas", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"civitas", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"civitas", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"civitas", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"civitas", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"civitas", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"civitas", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"civitas", "checkbudgets", &checkbudgets, true, true, false},
-        {"civitas", "mnsync", &mnsync, true, true, false},
-        {"civitas", "spork", &spork, true, true, false},
-        {"civitas", "getpoolinfo", &getpoolinfo, true, true, false},
+        /* Enox features */
+        {"enox", "masternode", &masternode, true, true, false},
+        {"enox", "listmasternodes", &listmasternodes, true, true, false},
+        {"enox", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"enox", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"enox", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"enox", "masternodedebug", &masternodedebug, true, true, false},
+        {"enox", "startmasternode", &startmasternode, true, true, false},
+        {"enox", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"enox", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"enox", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"enox", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"enox", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"enox", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"enox", "mnbudget", &mnbudget, true, true, false},
+        {"enox", "preparebudget", &preparebudget, true, true, false},
+        {"enox", "submitbudget", &submitbudget, true, true, false},
+        {"enox", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"enox", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"enox", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"enox", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"enox", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"enox", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"enox", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"enox", "checkbudgets", &checkbudgets, true, true, false},
+        {"enox", "mnsync", &mnsync, true, true, false},
+        {"enox", "spork", &spork, true, true, false},
+        {"enox", "getpoolinfo", &getpoolinfo, true, true, false},
 #ifdef ENABLE_WALLET
-        {"civitas", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
+        {"enox", "obfuscation", &obfuscation, false, false, true}, /* not threadSafe because of SendMoney */
 
         /* Wallet */
         {"wallet", "addmultisigaddress", &addmultisigaddress, true, false, true},
@@ -626,16 +626,16 @@ void StartRPCThreads()
         unsigned char rand_pwd[32];
         GetRandBytes(rand_pwd, 32);
         uiInterface.ThreadSafeMessageBox(strprintf(
-                                             _("To use civitasd, or the -server option to civitas-qt, you must set an rpcpassword in the configuration file:\n"
+                                             _("To use enoxd, or the -server option to enox-qt, you must set an rpcpassword in the configuration file:\n"
                                                "%s\n"
                                                "It is recommended you use the following random password:\n"
-                                               "rpcuser=civitasrpc\n"
+                                               "rpcuser=enoxrpc\n"
                                                "rpcpassword=%s\n"
                                                "(you do not need to remember this password)\n"
                                                "The username and password MUST NOT be the same.\n"
                                                "If the file does not exist, create it with owner-readable-only file permissions.\n"
                                                "It is also recommended to set alertnotify so you are notified of problems;\n"
-                                               "for example: alertnotify=echo %%s | mail -s \"Civitas Alert\" admin@foo.com\n"),
+                                               "for example: alertnotify=echo %%s | mail -s \"Enox Alert\" admin@foo.com\n"),
                                              GetConfigFile().string(),
                                              EncodeBase58(&rand_pwd[0], &rand_pwd[0] + 32)),
             "", CClientUIInterface::MSG_ERROR | CClientUIInterface::SECURE);
@@ -1086,7 +1086,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> civitas-cli " + methodname + " " + args + "\n";
+    return "> enox-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

@@ -62,12 +62,12 @@
         <translation>Получаващ адрес</translation>
     </message>
     <message>
-        <source>These are your Civitas addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Това са вашите Civitas адреси за изпращане на плащания. Винаги проверявайте количеството и адреса на получателя, преди да изпратите монети.</translation>
+        <source>These are your Enox addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Това са вашите Enox адреси за изпращане на плащания. Винаги проверявайте количеството и адреса на получателя, преди да изпратите монети.</translation>
     </message>
     <message>
-        <source>These are your Civitas addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Това са вашите Civitas адреси за получаване на плащания. Препоръчително е да използвате нови адреси за получаване за всяка транзакция.</translation>
+        <source>These are your Enox addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Това са вашите Enox адреси за получаване на плащания. Препоръчително е да използвате нови адреси за получаване за всяка транзакция.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,16 +176,16 @@
         <translation>Потвърдете шифрирането на портфейла</translation>
     </message>
     <message>
-        <source>Civitas will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CIVs from being stolen by malware infecting your computer.</source>
-        <translation>Civitas сега ще се затвори, за да довърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да защити вашия Civitas от това, да бъде откраднат чрез злонамерен софутуер, инфектирал вашия компютър.</translation>
+        <source>Enox will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ENXs from being stolen by malware infecting your computer.</source>
+        <translation>Enox сега ще се затвори, за да довърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да защити вашия Enox от това, да бъде откраднат чрез злонамерен софутуер, инфектирал вашия компютър.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Сигурни ли сте, че искате да шифрирате вашия портфейл?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CIV&lt;/b&gt;!</source>
-        <translation>&lt;b&gt;Внимание: Ако шифрирате вашия портфейл и загубите вашата парола, вие ще ЗАГУБИТЕ ВСИЧКИТЕ ВИ CIV&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ENX&lt;/b&gt;!</source>
+        <translation>&lt;b&gt;Внимание: Ако шифрирате вашия портфейл и загубите вашата парола, вие ще ЗАГУБИТЕ ВСИЧКИТЕ ВИ ENX&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Шифриране</translation>
     </message>
     <message>
-        <source>Enter a Civitas Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Въведете Civitas адрес, който искате да шифрирате с BIP 38. Въведете парола в средното поле. Натиснете 'шифрирай', за да се изчисли шифррания личен ключ.</translation>
+        <source>Enter a Enox Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Въведете Enox адрес, който искате да шифрирате с BIP 38. Въведете парола в средното поле. Натиснете 'шифрирай', за да се изчисли шифррания личен ключ.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Адрес:</translation>
     </message>
     <message>
-        <source>The Civitas address to sign the message with</source>
-        <translation>Civitas адреса, с който да подпишете съобщението</translation>
+        <source>The Enox address to sign the message with</source>
+        <translation>Enox адреса, с който да подпишете съобщението</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Копирай сегашния подпис в системния буфер</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Civitas address</source>
-        <translation>Подпишете съобщението, за да докажете, че притежавате този Civitas адрес</translation>
+        <source>Sign the message to prove you own this Enox address</source>
+        <translation>Подпишете съобщението, за да докажете, че притежавате този Enox адрес</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Въведете личният си BIP 38 ключ. Въведете тайната фраза в средното поле. Избери Дешифриращия Ключ за да изчислим личния ключ. След като ключа се дешифрира, за да добаите ключа към портфейла, кликнете "Импортирай адрес".</translation>
     </message>
     <message>
-        <source>The Civitas address the message was signed with</source>
-        <translation>Civitas адреса, който е подписано съобщението</translation>
+        <source>The Enox address the message was signed with</source>
+        <translation>Enox адреса, който е подписано съобщението</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Civitas address</source>
-        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения Civitas адрес</translation>
+        <source>Verify the message to ensure it was signed with the specified Enox address</source>
+        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения Enox адрес</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -602,24 +602,24 @@
         <translation>Колан с инструменти</translation>
     </message>
     <message>
-        <source>Civitas Core</source>
-        <translation>Civitas Ядро</translation>
+        <source>Enox Core</source>
+        <translation>Enox Ядро</translation>
     </message>
     <message>
-        <source>Send coins to a Civitas address</source>
-        <translation>Изпратете монети до Civitas адрес</translation>
+        <source>Send coins to a Enox address</source>
+        <translation>Изпратете монети до Enox адрес</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and civitas: URIs)</source>
-        <translation>Поискай плащане (генерира QR кодове и  Civitas:URI)</translation>
+        <source>Request payments (generates QR codes and enox: URIs)</source>
+        <translation>Поискай плащане (генерира QR кодове и  Enox:URI)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
         <translation>&amp;Поверителност</translation>
     </message>
     <message>
-        <source>Privacy Action for zCIV and Obfuscation</source>
-        <translation>Поверителни действия за zCIV и Обфускация</translation>
+        <source>Privacy Action for zENX and Obfuscation</source>
+        <translation>Поверителни действия за zENX и Обфускация</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -630,24 +630,24 @@
         <translation>Разгледай мастърноудове</translation>
     </message>
     <message>
-        <source>&amp;About Civitas Core</source>
-        <translation>&amp;Относно Civitas Ядрото</translation>
+        <source>&amp;About Enox Core</source>
+        <translation>&amp;Относно Enox Ядрото</translation>
     </message>
     <message>
-        <source>Show information about Civitas Core</source>
-        <translation>Информациза за Civitas Ядрото</translation>
+        <source>Show information about Enox Core</source>
+        <translation>Информациза за Enox Ядрото</translation>
     </message>
     <message>
-        <source>Modify configuration options for Civitas</source>
-        <translation>Промени Civitas конфигурацията</translation>
+        <source>Modify configuration options for Enox</source>
+        <translation>Промени Enox конфигурацията</translation>
     </message>
     <message>
-        <source>Sign messages with your Civitas addresses to prove you own them</source>
-        <translation>Подпишете съобщения със своте Civitas адреси, за да докажете че са Ваши</translation>
+        <source>Sign messages with your Enox addresses to prove you own them</source>
+        <translation>Подпишете съобщения със своте Enox адреси, за да докажете че са Ваши</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Civitas addresses</source>
-        <translation>Проеврете съобщения, за да се убедите, че са подписани с указаните Civitas адреси</translation>
+        <source>Verify messages to ensure they were signed with specified Enox addresses</source>
+        <translation>Проеврете съобщения, за да се убедите, че са подписани с указаните Enox адреси</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -678,8 +678,8 @@
         <translation>Отвори Мастърноуд конфигурационния файл</translation>
     </message>
     <message>
-        <source>Open a Civitas: URI or payment request</source>
-        <translation>Отвори Civitas:URI платежно нареждане</translation>
+        <source>Open a Enox: URI or payment request</source>
+        <translation>Отвори Enox:URI платежно нареждане</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -690,16 +690,16 @@
         <translation>Прозорец на блок сондата</translation>
     </message>
     <message>
-        <source>Show the Civitas Core help message to get a list with possible Civitas command-line options</source>
-        <translation>Разкрийте Помощ за Civitas Ядрото, за да видите списък с възможни писмени команди.</translation>
+        <source>Show the Enox Core help message to get a list with possible Enox command-line options</source>
+        <translation>Разкрийте Помощ за Enox Ядрото, за да видите списък с възможни писмени команди.</translation>
     </message>
     <message>
-        <source>Civitas Core client</source>
-        <translation>Клиент Civitas Ядро</translation>
+        <source>Enox Core client</source>
+        <translation>Клиент Enox Ядро</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Civitas network</source>
-        <translation><numerusform>%n активни връзки към Civitas мрежата</numerusform><numerusform>%n активни свръзки към Civitas мрежата</numerusform></translation>
+        <source>%n active connection(s) to Enox network</source>
+        <translation><numerusform>%n активни връзки към Enox мрежата</numerusform><numerusform>%n активни свръзки към Enox мрежата</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -853,8 +853,8 @@ Address: %4
         <translation>ТекстовЕтикет</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (civitas.conf).</source>
-        <translation>Не всички преводи ще бъдат показани. За да разгледате всички преводи, трябва да зададете txindex=1 в конфигурационния файл (civitas.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (enox.conf).</source>
+        <translation>Не всички преводи ще бъдат показани. За да разгледате всички преводи, трябва да зададете txindex=1 в конфигурационния файл (enox.conf).</translation>
     </message>
 </context>
 <context>
@@ -1142,8 +1142,8 @@ Address: %4
         <translation>Редактирай адрес за изпращане</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Civitas address.</source>
-        <translation>Зададения адрес "%1"не е валиден Civitas адрес.</translation>
+        <source>The entered address "%1" is not a valid Enox address.</source>
+        <translation>Зададения адрес "%1"не е валиден Enox адрес.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1188,16 +1188,16 @@ Address: %4
         <translation>версия</translation>
     </message>
     <message>
-        <source>Civitas Core</source>
-        <translation>Civitas Ядро</translation>
+        <source>Enox Core</source>
+        <translation>Enox Ядро</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Civitas Core</source>
-        <translation>Относно Civitas Ядрото</translation>
+        <source>About Enox Core</source>
+        <translation>Относно Enox Ядрото</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1243,16 +1243,16 @@ Address: %4
         <translation>Привет</translation>
     </message>
     <message>
-        <source>Welcome to Civitas Core.</source>
-        <translation>Добре Дошли в Civitas Ядрото</translation>
+        <source>Welcome to Enox Core.</source>
+        <translation>Добре Дошли в Enox Ядрото</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Civitas Core will store its data.</source>
-        <translation>Тъй като това е първия път, в който стартирате програмата, имате възможността да изберете къде Civitas Ядрото ще съхранява своите данни.</translation>
+        <source>As this is the first time the program is launched, you can choose where Enox Core will store its data.</source>
+        <translation>Тъй като това е първия път, в който стартирате програмата, имате възможността да изберете къде Enox Ядрото ще съхранява своите данни.</translation>
     </message>
     <message>
-        <source>Civitas Core will download and store a copy of the Civitas block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Civitas Ядрото ще изтегли и запише копие на целия Civitas блокчейн. Поне %1 гигабайта ще бъдат съхранявани в тази папка, като тенденцията е файла да расте. Портфейла също ще бъде запазен в тази папка.</translation>
+        <source>Enox Core will download and store a copy of the Enox block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Enox Ядрото ще изтегли и запише копие на целия Enox блокчейн. Поне %1 гигабайта ще бъдат съхранявани в тази папка, като тенденцията е файла да расте. Портфейла също ще бъде запазен в тази папка.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1263,8 +1263,8 @@ Address: %4
         <translation>Задай своя папка за данни:</translation>
     </message>
     <message>
-        <source>Civitas Core</source>
-        <translation>Civitas Ядро</translation>
+        <source>Enox Core</source>
+        <translation>Enox Ядро</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1405,12 +1405,12 @@ Address: %4
         <translation>Въведете адреса на Получателя</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Civitas addresses after it matures.
-To Add: enter percentage to give and Civitas address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Enox addresses after it matures.
+To Add: enter percentage to give and Enox address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>МултиИзпращане Ви позволява автоматично да изпращате до 100% от вашите стейк или мастърноуд възнаграждения към списък от други Civitas адреси.
-Да Добавите: въведете процент и задайте Civitas адрес към вектора за МултиИзпращане
+        <translation>МултиИзпращане Ви позволява автоматично да изпращате до 100% от вашите стейк или мастърноуд възнаграждения към списък от други Enox адреси.
+Да Добавите: въведете процент и задайте Enox адрес към вектора за МултиИзпращане
 Да Прамахнете: Въведете адрес за изстриване и натиснете истрий (del).
 МултиИзпращането няма да бъде активирано докато не кликнете "Активирай"</translation>
     </message>
@@ -1548,47 +1548,47 @@ Please check the address and try again.</source>
         <translation>Изберете ниво на поверителност.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 CIV</source>
-        <translation>Използвай 2 различни мастърноуда за смесване на средства над 10000 CIV</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 ENX</source>
+        <translation>Използвай 2 различни мастърноуда за смесване на средства над 10000 ENX</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 CIV</source>
-        <translation>Използвай 8 различни мастърноуда за да смесите средства до 10000 CIV</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 ENX</source>
+        <translation>Използвай 8 различни мастърноуда за да смесите средства до 10000 ENX</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Използвай 16 различни мастърноуда</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 CIV to anonymize 10000 CIV</source>
-        <translation>Това е най-бързия метод и ще струва около 0.025 CIV за да скриете 10000 CIV</translation>
+        <source>This option is the quickest and will cost about ~0.025 ENX to anonymize 10000 ENX</source>
+        <translation>Това е най-бързия метод и ще струва около 0.025 ENX за да скриете 10000 ENX</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 CIV to anonymize 10000 CIV</source>
-        <translation>Тази опция е сравнително бърза и ще струва около 0.05 CIV за да скриете 10000 CIV</translation>
+        <source>This option is moderately fast and will cost about 0.05 ENX to anonymize 10000 ENX</source>
+        <translation>Тази опция е сравнително бърза и ще струва около 0.05 ENX за да скриете 10000 ENX</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
-        <translation>Това е най-бавния и най-сигурен вариант за скриване на CIV. Използването й ще струва</translation>
+        <translation>Това е най-бавния и най-сигурен вариант за скриване на ENX. Използването й ще струва</translation>
     </message>
     <message>
-        <source>0.1 CIV per 10000 CIV you anonymize.</source>
-        <translation>0.1 CIV за 10000 скрити CIV</translation>
+        <source>0.1 ENX per 10000 ENX you anonymize.</source>
+        <translation>0.1 ENX за 10000 скрити ENX</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Конфигурация на Обфускацията</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Civitas's configuration screen.</source>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Enox's configuration screen.</source>
         <translation>Обфускацията е успешно конфигурирана на елементарно ниво (%1 и 2 кръга). Moжете да промените тази настройка по всяко време от същото място.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Civitas's configuration screen.</source>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Enox's configuration screen.</source>
         <translation>Обфускацията е успешно конфигурирана на високо ниво (%1 и 8 кръга). Moжете да промените тази настройка по всяко време от същото място.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Civitas's configuration screen.</source>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Enox's configuration screen.</source>
         <translation>Обфускацията е успешно конфигурирана на максимално ниво (%1 и 16 кръга). Moжете да промените тази настройка по всяко време от същото място.</translation>
     </message>
 </context>
@@ -1650,8 +1650,8 @@ Please check the address and try again.</source>
         <translation>Aко изключите харча на непотвърдено ресто, рестото от превод&lt;br/&gt;не може да се използва, докато превода не получи поне 1 потвърждение. &lt;br/&gt;Това влияе и на начина по който общите Ви средства се преизчисляват.</translation>
     </message>
     <message>
-        <source>Automatically open the Civitas client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматично отвори Civitas порта в рутера. Това става само ако рутера Ви подържа UPnP и последния е включен.</translation>
+        <source>Automatically open the Enox client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматично отвори Enox порта в рутера. Това става само ако рутера Ви подържа UPnP и последния е включен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1670,12 +1670,12 @@ Please check the address and try again.</source>
         <translation>Експерт</translation>
     </message>
     <message>
-        <source>Automatically start Civitas after logging in to the system.</source>
-        <translation>Стартирай Civitas автоматично след влизане в системата.</translation>
+        <source>Automatically start Enox after logging in to the system.</source>
+        <translation>Стартирай Enox автоматично след влизане в системата.</translation>
     </message>
     <message>
-        <source>&amp;Start Civitas on system login</source>
-        <translation>&amp;Стартирай Civitas заедно с операционната система</translation>
+        <source>&amp;Start Enox on system login</source>
+        <translation>&amp;Стартирай Enox заедно с операционната система</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1702,34 +1702,34 @@ Please check the address and try again.</source>
         <translation>&amp;Мрежа</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Civitas.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Enox.</source>
         <translation>Промяна на езика. Настройката е активна след рестарт на портфейла.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/civitas-project/civitas-project-translations</source>
+https://www.transifex.com/enox-project/enox-project-translations</source>
         <translation>Липсващ език или непълен превод? Помогнете с преводите тук:
-https://www.transifex.com/civitas-project/civitas-project-translations</translation>
+https://www.transifex.com/enox-project/enox-project-translations</translation>
     </message>
     <message>
-        <source>Percentage of incoming CIV which get automatically converted to zCIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Процент от входящите CIV, който автоматично да се конвертира в zCIV посредтвом Zerocoin Протокола (мин: 10%)</translation>
+        <source>Percentage of incoming ENX which get automatically converted to zENX via Zerocoin Protocol (min: 10%)</source>
+        <translation>Процент от входящите ENX, който автоматично да се конвертира в zENX посредтвом Zerocoin Протокола (мин: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zCIV</source>
-        <translation>Процент автоматично сечени zCIV</translation>
+        <source>Percentage of autominted zENX</source>
+        <translation>Процент автоматично сечени zENX</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough CIV for this denomination is available</source>
-        <translation>Не бързай с автоматичното конвертиране в zCIV докато не се съберат достатъчно CIV за тази деноминация</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough ENX for this denomination is available</source>
+        <translation>Не бързай с автоматичното конвертиране в zENX докато не се съберат достатъчно ENX за тази деноминация</translation>
     </message>
     <message>
-        <source>Preferred Automint zCIV Denomination</source>
-        <translation>Предпочитани деноминации, в които да се сече автоматичен zCIV</translation>
+        <source>Preferred Automint zENX Denomination</source>
+        <translation>Предпочитани деноминации, в които да се сече автоматичен zENX</translation>
     </message>
     <message>
-        <source>Connect to the Civitas network through a SOCKS5 proxy.</source>
-        <translation>Свържи се с Civitas мрежата със SOCKS5 прокси.</translation>
+        <source>Connect to the Enox network through a SOCKS5 proxy.</source>
+        <translation>Свържи се с Enox мрежата със SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1859,8 +1859,8 @@ https://www.transifex.com/civitas-project/civitas-project-translations</translat
         <translation>От</translation>
     </message>
     <message>
-        <source>CIV Balances</source>
-        <translation>CIV Баланс</translation>
+        <source>ENX Balances</source>
+        <translation>ENX Баланс</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1887,8 +1887,8 @@ https://www.transifex.com/civitas-project/civitas-project-translations</translat
         <translation>Възнаграждение от стейкване или мастърноуд, които все още не са узрели.</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Civitas network after a connection is established, but this process has not completed yet.</source>
-        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с Civitas мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Enox network after a connection is established, but this process has not completed yet.</source>
+        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с Enox мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1927,12 +1927,12 @@ https://www.transifex.com/civitas-project/civitas-project-translations</translat
         <translation>Комбиниран общ баланс (само озрелите монети)</translation>
     </message>
     <message>
-        <source>CIV:</source>
-        <translation>CIV:</translation>
+        <source>ENX:</source>
+        <translation>ENX:</translation>
     </message>
     <message>
-        <source>zCIV:</source>
-        <translation>zCIV:</translation>
+        <source>zENX:</source>
+        <translation>zENX:</translation>
     </message>
     <message>
         <source>0 %</source>
@@ -1974,12 +1974,12 @@ https://www.transifex.com/civitas-project/civitas-project-translations</translat
         <translation>Грешен адрес за плащане %1</translation>
     </message>
     <message>
-        <source>Cannot start civitas: click-to-pay handler</source>
-        <translation>Провал при стартирането на civitas: click-to-pay обработвател</translation>
+        <source>Cannot start enox: click-to-pay handler</source>
+        <translation>Провал при стартирането на enox: click-to-pay обработвател</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Civitas address or malformed URI parameters.</source>
-        <translation>URI не може да се парсне. Вероятна причина е невалиден Civitas адрес или зле-форматирани URI Параметри.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Enox address or malformed URI parameters.</source>
+        <translation>URI не може да се парсне. Вероятна причина е невалиден Enox адрес или зле-форматирани URI Параметри.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2060,24 +2060,24 @@ https://www.transifex.com/civitas-project/civitas-project-translations</translat
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>CIV which were anonymized via Zerocin Protocol</source>
-        <translation>CIV скрити посредством Зерокойн протокола</translation>
+        <source>ENX which were anonymized via Zerocin Protocol</source>
+        <translation>ENX скрити посредством Зерокойн протокола</translation>
     </message>
     <message>
-        <source>Zerocoin CIV (zCIV)</source>
-        <translation>Zerocoin CIV (zCIV)</translation>
+        <source>Zerocoin ENX (zENX)</source>
+        <translation>Zerocoin ENX (zENX)</translation>
     </message>
     <message>
         <source>Zerocoin Actions:</source>
         <translation>Zerocoin Действия:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Civitas network after a connection is established, but this process has not completed yet.</source>
-        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с Civitas мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Enox network after a connection is established, but this process has not completed yet.</source>
+        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с Enox мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
     </message>
     <message>
         <source>Enter an amount of Phr to convert to zPhr</source>
-        <translation>Въведете колко CIV  да се конвертират в zCIV</translation>
+        <translation>Въведете колко ENX  да се конвертират в zENX</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2088,16 +2088,16 @@ https://www.transifex.com/civitas-project/civitas-project-translations</translat
         <translation>0</translation>
     </message>
     <message>
-        <source>zCIV</source>
-        <translation>zCIV</translation>
+        <source>zENX</source>
+        <translation>zENX</translation>
     </message>
     <message>
         <source>Available for Minting:</source>
         <translation>Налични за сечене:</translation>
     </message>
     <message>
-        <source>0.000 000 00 CIV</source>
-        <translation>0.000 000 00 CIV</translation>
+        <source>0.000 000 00 ENX</source>
+        <translation>0.000 000 00 ENX</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2133,11 +2133,11 @@ https://www.transifex.com/civitas-project/civitas-project-translations</translat
     </message>
     <message>
         <source>zPhr Control</source>
-        <translation>zCIV Контрол</translation>
+        <translation>zENX Контрол</translation>
     </message>
     <message>
         <source>zPhr Selected:</source>
-        <translation>Избрани zCIV:</translation>
+        <translation>Избрани zENX:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2156,8 +2156,8 @@ https://www.transifex.com/civitas-project/civitas-project-translations</translat
         <translation>Налични:</translation>
     </message>
     <message>
-        <source>0 zCIV</source>
-        <translation>0 zCIV</translation>
+        <source>0 zENX</source>
+        <translation>0 zENX</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2176,7 +2176,7 @@ https://www.transifex.com/civitas-project/civitas-project-translations</translat
         <translation>Плати На:</translation>
     </message>
     <message>
-        <source>The Civitas address to send the payment to. Creates local payment to yourself when empty.</source>
+        <source>The Enox address to send the payment to. Creates local payment to yourself when empty.</source>
         <translation>Адреса на който да изпратим плащането. Ако е празно - плащането е до себе си.</translation>
     </message>
     <message>
@@ -2209,7 +2209,7 @@ https://www.transifex.com/civitas-project/civitas-project-translations</translat
     </message>
     <message>
         <source>Convert Change to Zerocoin (might cost additional fees)</source>
-        <translation>Изсечи zCIV от рестото (ще струва допълнително заради таксите)</translation>
+        <translation>Изсечи zENX от рестото (ще струва допълнително заради таксите)</translation>
     </message>
     <message>
         <source>If checked, the wallet tries to minimize the returning change instead of minimizing the number of spent denominations.</source>
@@ -2376,8 +2376,8 @@ https://www.transifex.com/civitas-project/civitas-project-translations</translat
         <translation>Копирай сумата</translation>
     </message>
     <message>
-        <source>Zerocoin functionality is not enabled on the Civitas network yet.</source>
-        <translation>Zerocoin функцията все още не е активирана в Civitas мрежата.</translation>
+        <source>Zerocoin functionality is not enabled on the Enox network yet.</source>
+        <translation>Zerocoin функцията все още не е активирана в Enox мрежата.</translation>
     </message>
     <message>
         <source>Error: Your wallet is locked. Please enter the wallet passphrase first.</source>
@@ -2396,8 +2396,8 @@ https://www.transifex.com/civitas-project/civitas-project-translations</translat
         <translation>Успешно изсечени</translation>
     </message>
     <message>
-        <source> zCIV in </source>
-        <translation>zCIV в</translation>
+        <source> zENX in </source>
+        <translation>zENX в</translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2430,8 +2430,8 @@ Please be patient...</source>
         <translation>Без 'Плати На' адрес, плащането е локално</translation>
     </message>
     <message>
-        <source>Invalid Civitas Address</source>
-        <translation>Невалиден Civitas адрес</translation>
+        <source>Invalid Enox Address</source>
+        <translation>Невалиден Enox адрес</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2475,7 +2475,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>zPhr Spend #: </source>
-        <translation>zCIV Похарчени #:</translation>
+        <translation>zENX Похарчени #:</translation>
     </message>
     <message>
         <source>denomination: </source>
@@ -2499,7 +2499,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>zPhr Mint</source>
-        <translation>Сечене на zCIV</translation>
+        <translation>Сечене на zENX</translation>
     </message>
     <message>
         <source>Sending successful, return code: </source>
@@ -2521,8 +2521,8 @@ Please be patient...</source>
         <translation>Сума</translation>
     </message>
     <message>
-        <source>Enter a Civitas address (e.g. %1)</source>
-        <translation>Задайте Civitas адрес (например %1)</translation>
+        <source>Enter a Enox address (e.g. %1)</source>
+        <translation>Задайте Enox адрес (например %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2659,8 +2659,8 @@ Please be patient...</source>
         <translation>Блокчейн</translation>
     </message>
     <message>
-        <source>Open the Civitas debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Отвори Civitas дебъг лог файла от сегашната папка. Това може да отнеме известно време за по-дълги файлове.</translation>
+        <source>Open the Enox debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Отвори Enox дебъг лог файла от сегашната папка. Това може да отнеме известно време за по-дълги файлове.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2827,8 +2827,8 @@ Please be patient...</source>
         <translation>Изходящи:</translation>
     </message>
     <message>
-        <source>Welcome to the Civitas RPC console.</source>
-        <translation>Добре Дошли в RPC конзолата на Civitas.</translation>
+        <source>Welcome to the Enox RPC console.</source>
+        <translation>Добре Дошли в RPC конзолата на Enox.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2898,12 +2898,12 @@ Please be patient...</source>
         <translation>Незадължителен етикет, който да асоциираме с адреса за получаване.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Civitas network.</source>
-        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по Civitas мрежата.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Enox network.</source>
+        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по Enox мрежата.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Civitas network.</source>
-        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. &lt;br&gt;Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по Civitas мрежата.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Enox network.</source>
+        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. &lt;br&gt;Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по Enox мрежата.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3127,8 +3127,8 @@ Please be patient...</source>
         <translation>Размер на UTXO:</translation>
     </message>
     <message>
-        <source>0 CIV</source>
-        <translation>0 CIV</translation>
+        <source>0 ENX</source>
+        <translation>0 ENX</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3179,15 +3179,15 @@ Please be patient...</source>
         <translation>Автоматично избрани монети</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uCIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uCIVs in fee,&lt;br /&gt;while "at least" pays 1000 uCIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ако собствената такса е настроена на 1000 uCIV и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uCIV входяща такса, &lt;br /&gt;докато "минимална сума" плаща 1000 uCIV. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
+        <source>If the custom fee is set to 1000 uENXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uENXs in fee,&lt;br /&gt;while "at least" pays 1000 uENXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ако собствената такса е настроена на 1000 uENX и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uENX входяща такса, &lt;br /&gt;докато "минимална сума" плаща 1000 uENX. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uCIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uCIVs in fee,&lt;br /&gt;while "total at least" pays 1000 uCIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ако собствената такса е настроена на 1000 uCIV и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uCIV входяща такса,&lt;br /&gt; докато "минимална сума" плаща 1000 uCIV. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
+        <source>If the custom fee is set to 1000 uENXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uENXs in fee,&lt;br /&gt;while "total at least" pays 1000 uENXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ако собствената такса е настроена на 1000 uENX и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uENX входяща такса,&lt;br /&gt; докато "минимална сума" плаща 1000 uENX. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Civitas transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Enox transactions than the network can process.</source>
         <translation>Няма проблем да платите минималната такса, стига обема преводи да е по-малък от наличното място в блоковете. &lt;br /&gt;Но имайте впредвид, че това може да се окаже в превод, който никога не получава потвърждение ако заявките за преводи са повече от колкото мрежата може да понесе.</translation>
     </message>
     <message>
@@ -3235,8 +3235,8 @@ Please be patient...</source>
         <translation>Добави Получател</translation>
     </message>
     <message>
-        <source>Anonymized CIV</source>
-        <translation>Анонимизиран CIV</translation>
+        <source>Anonymized ENX</source>
+        <translation>Анонимизиран ENX</translation>
     </message>
     <message>
         <source>SwiftTX</source>
@@ -3295,8 +3295,8 @@ Please be patient...</source>
         <translation>анонимни средства</translation>
     </message>
     <message>
-        <source>Warning: Invalid Civitas address</source>
-        <translation>Предупреждение: Невалиден CIV адрес</translation>
+        <source>Warning: Invalid Enox address</source>
+        <translation>Предупреждение: Невалиден ENX адрес</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -3402,8 +3402,8 @@ Please be patient...</source>
         <translation>Плати На:</translation>
     </message>
     <message>
-        <source>The Civitas address to send the payment to</source>
-        <translation>Civitas адреса - получател на плащането</translation>
+        <source>The Enox address to send the payment to</source>
+        <translation>Enox адреса - получател на плащането</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3442,8 +3442,8 @@ Please be patient...</source>
         <translation>Съобщение:</translation>
     </message>
     <message>
-        <source>A message that was attached to the Civitas: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Civitas network.</source>
-        <translation>Съобщение, което е било прикачено към Civitas:URI и което ще бъде запазено заедно с превода за ваша информация. Внимание: Това съобщение е само за Вас, то няма да бъде изпратено по Civitas мрежата.</translation>
+        <source>A message that was attached to the Enox: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Enox network.</source>
+        <translation>Съобщение, което е било прикачено към Enox:URI и което ще бъде запазено заедно с превода за ваша информация. Внимание: Това съобщение е само за Вас, то няма да бъде изпратено по Enox мрежата.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3469,8 +3469,8 @@ Please be patient...</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Civitas Core is shutting down...</source>
-        <translation>Изключване на Civitas Ядрото...</translation>
+        <source>Enox Core is shutting down...</source>
+        <translation>Изключване на Enox Ядрото...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3492,8 +3492,8 @@ Please be patient...</source>
         <translation>Може да подписвате съобщения с Вашите адреси, за да докажете че сте техен притежател. Внимавайте да не подписвате нищо съмнително, тъй като има хакерски атаки, които целят да придобият вашата самоличност. Само подписвайте пълен и ясен текст, с който сте напълно съгласни.</translation>
     </message>
     <message>
-        <source>The Civitas address to sign the message with</source>
-        <translation>Civitas адреса, с който да подпишете съобщението</translation>
+        <source>The Enox address to sign the message with</source>
+        <translation>Enox адреса, с който да подпишете съобщението</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3524,16 +3524,16 @@ Please be patient...</source>
         <translation>Копирай сегашния подпис в системния буфер</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Civitas address</source>
-        <translation>Подпишете съобщението, за да докажете, че притежавате този Civitas адрес</translation>
+        <source>Sign the message to prove you own this Enox address</source>
+        <translation>Подпишете съобщението, за да докажете, че притежавате този Enox адрес</translation>
     </message>
     <message>
-        <source>The Civitas address the message was signed with</source>
-        <translation>Civitas адреса, който е подписано съобщението</translation>
+        <source>The Enox address the message was signed with</source>
+        <translation>Enox адреса, който е подписано съобщението</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Civitas address</source>
-        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения Civitas адрес</translation>
+        <source>Verify the message to ensure it was signed with the specified Enox address</source>
+        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения Enox адрес</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3619,8 +3619,8 @@ Please be patient...</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Civitas Core</source>
-        <translation>Civitas Ядро</translation>
+        <source>Enox Core</source>
+        <translation>Enox Ядро</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3635,8 +3635,8 @@ Please be patient...</source>
         <translation>Dash Core разработчици</translation>
     </message>
     <message>
-        <source>The Civitas Core developers</source>
-        <translation>Civitas Core разработчици</translation>
+        <source>The Enox Core developers</source>
+        <translation>Enox Core разработчици</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3956,23 +3956,23 @@ Please be patient...</source>
     </message>
     <message>
         <source>Converted Phr to zPhr</source>
-        <translation>Конвертиран CIV във zCIV</translation>
+        <translation>Конвертиран ENX във zENX</translation>
     </message>
     <message>
         <source>Spent zPhr</source>
-        <translation>Похарчени zCIV</translation>
+        <translation>Похарчени zENX</translation>
     </message>
     <message>
         <source>Received Phr from zPhr</source>
-        <translation>Получен CIV от zCIV</translation>
+        <translation>Получен ENX от zENX</translation>
     </message>
     <message>
         <source>Minted Change as zPhr from zPhr Spend</source>
-        <translation>Исечено ресто като zCIV от похарчените zCIV</translation>
+        <translation>Исечено ресто като zENX от похарчените zENX</translation>
     </message>
     <message>
         <source>Converted zPhr to Phr</source>
-        <translation>Конвертирани zCIV в CIV</translation>
+        <translation>Конвертирани zENX в ENX</translation>
     </message>
     <message>
         <source>watch-only</source>
@@ -3980,7 +3980,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>zPhr Accumulator</source>
-        <translation>zCIV Акумулатор</translation>
+        <translation>zENX Акумулатор</translation>
     </message>
     <message>
         <source>(n/a)</source>
@@ -4087,7 +4087,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Received Phr from zPhr</source>
-        <translation>Получен CIV от zCIV</translation>
+        <translation>Получен ENX от zENX</translation>
     </message>
     <message>
         <source>Zerocoin Mint</source>
@@ -4099,7 +4099,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Zerocoin Spend, Change in zPhr</source>
-        <translation>Харчене на Zerocoin, Ресто в zCIV</translation>
+        <translation>Харчене на Zerocoin, Ресто в zENX</translation>
     </message>
     <message>
         <source>Zerocoin Spend to Self</source>
@@ -4215,8 +4215,8 @@ Please be patient...</source>
         <translation>Изпрати Монети</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 CIV.</source>
-        <translation>SwiftTX не подържа изпращането на толкова големи суми. Превода е ограничен до %1 CIV.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 ENX.</source>
+        <translation>SwiftTX не подържа изпращането на толкова големи суми. Превода е ограничен до %1 ENX.</translation>
     </message>
 </context>
 <context>
@@ -4262,7 +4262,7 @@ Please be patient...</source>
     <name>ZPhrControlDialog</name>
     <message>
         <source>Select zPhr to Spend</source>
-        <translation>Изберете zCIV за Изпращане</translation>
+        <translation>Изберете zENX за Изпращане</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4274,7 +4274,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>zPhr</source>
-        <translation>zCIV</translation>
+        <translation>zENX</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4286,7 +4286,7 @@ Please be patient...</source>
     </message>
 </context>
 <context>
-    <name>civitas-core</name>
+    <name>enox-core</name>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
         <translation>Промяна на поведението на автоматично финализираното гласоподаване. mode=auto: Гласувай само за точни финализирани бюджети, които съвпадат с моят генериран бюджет. (string, default:auto)</translation>
@@ -4304,8 +4304,8 @@ Please be patient...</source>
         <translation>Изтрий всички преводи от портфейла и възстанови само тези части от блокчейна - сканира при стартиране.</translation>
     </message>
     <message>
-        <source>Disable all Civitas specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Изключи всякаква Civitas функционалност (Мастърноудове, Обфускация, SwiftTX, Бюджетиране) (0-1 default: %u)</translation>
+        <source>Disable all Enox specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Изключи всякаква Enox функционалност (Мастърноудове, Обфускация, SwiftTX, Бюджетиране) (0-1 default: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -4344,12 +4344,12 @@ Please be patient...</source>
         <translation>Командата влиза в сила, когато най-добрия блок се промени (%s в cmd се замества от хаш на блока)</translation>
     </message>
     <message>
-        <source>Fees (in CIV/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Такси (в CIV/Кб) по-малки от това се считат за нулеви при препращане (default: %s)</translation>
+        <source>Fees (in ENX/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Такси (в ENX/Кб) по-малки от това се считат за нулеви при препращане (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in CIV/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Такси (в CIV/Кб) по-малки от това се считат за нулеви при създаване на предовда (default: %s)</translation>
+        <source>Fees (in ENX/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Такси (в ENX/Кб) по-малки от това се считат за нулеви при създаване на предовда (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>

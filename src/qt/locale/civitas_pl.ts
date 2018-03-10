@@ -148,8 +148,8 @@
         <translation>Czy na pewno chcesz zakodować portfel?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CIV&lt;/b&gt;!</source>
-        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE CIV!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ENX&lt;/b&gt;!</source>
+        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE ENX!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -227,8 +227,8 @@
         <translation>Zakodowany klucz:</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Civitas address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres Civitas jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this Enox address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres Enox jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -518,16 +518,16 @@
         <translation>&amp;Pomoc</translation>
     </message>
     <message>
-        <source>Civitas Core</source>
-        <translation>&amp;Rdzeń Civitas</translation>
+        <source>Enox Core</source>
+        <translation>&amp;Rdzeń Enox</translation>
     </message>
     <message>
-        <source>Send coins to a Civitas address</source>
-        <translation>Wyślij monety do adresu Civitas</translation>
+        <source>Send coins to a Enox address</source>
+        <translation>Wyślij monety do adresu Enox</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and civitas: URIs)</source>
-        <translation>Zarządaj płatności (generuje kod QR i civitas:URI)</translation>
+        <source>Request payments (generates QR codes and enox: URIs)</source>
+        <translation>Zarządaj płatności (generuje kod QR i enox:URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -538,24 +538,24 @@
         <translation>Przeglądaj masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Civitas Core</source>
+        <source>&amp;About Enox Core</source>
         <translation>&amp;O rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Show information about Civitas Core</source>
+        <source>Show information about Enox Core</source>
         <translation>Pokaż informacje o rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Modify configuration options for Civitas</source>
-        <translation>Modyfikuj opcje konfiguracji Civitas</translation>
+        <source>Modify configuration options for Enox</source>
+        <translation>Modyfikuj opcje konfiguracji Enox</translation>
     </message>
     <message>
-        <source>Sign messages with your Civitas addresses to prove you own them</source>
-        <translation>Zatwierdź wiadomość z twoimi adresami Civitas, by udowodnić, że jesteś w ich posiadaniu</translation>
+        <source>Sign messages with your Enox addresses to prove you own them</source>
+        <translation>Zatwierdź wiadomość z twoimi adresami Enox, by udowodnić, że jesteś w ich posiadaniu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Civitas addresses</source>
-        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu Civitas</translation>
+        <source>Verify messages to ensure they were signed with specified Enox addresses</source>
+        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu Enox</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -582,8 +582,8 @@
         <translation>Otwórz &amp;Plik konfiguracji Masternode</translation>
     </message>
     <message>
-        <source>Open a Civitas: URI or payment request</source>
-        <translation>OtwórzCIVX: URI i żądanie zapłaty</translation>
+        <source>Open a Enox: URI or payment request</source>
+        <translation>OtwórzENXX: URI i żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -594,12 +594,12 @@
         <translation>Okno eksplorera bloków</translation>
     </message>
     <message>
-        <source>Show the Civitas Core help message to get a list with possible Civitas command-line options</source>
-        <translation>Pokaż wiadomość pomocy rdzenia Civitas, aby dostać listę możliwych opcji Civitas command-line</translation>
+        <source>Show the Enox Core help message to get a list with possible Enox command-line options</source>
+        <translation>Pokaż wiadomość pomocy rdzenia Enox, aby dostać listę możliwych opcji Enox command-line</translation>
     </message>
     <message>
-        <source>Civitas Core client</source>
-        <translation>Rdzeń Civitas klient</translation>
+        <source>Enox Core client</source>
+        <translation>Rdzeń Enox klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -912,8 +912,8 @@ MultiWysyłlka: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Civitas Core</source>
-        <translation>&amp;Rdzeń Civitas</translation>
+        <source>Enox Core</source>
+        <translation>&amp;Rdzeń Enox</translation>
     </message>
     </context>
 <context>
@@ -927,8 +927,8 @@ MultiWysyłlka: %1</translation>
         <translation>Użyj niestandardowej ścieżki danych</translation>
     </message>
     <message>
-        <source>Civitas Core</source>
-        <translation>&amp;Rdzeń Civitas</translation>
+        <source>Enox Core</source>
+        <translation>&amp;Rdzeń Enox</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1188,12 +1188,12 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Zezwól na przychodzące połączenia</translation>
     </message>
     <message>
-        <source>Automatically start Civitas after logging in to the system.</source>
-        <translation>Automatycznie uruchom Civitas po zalogowaniu do systemu</translation>
+        <source>Automatically start Enox after logging in to the system.</source>
+        <translation>Automatycznie uruchom Enox po zalogowaniu do systemu</translation>
     </message>
     <message>
-        <source>&amp;Start Civitas on system login</source>
-        <translation>&amp;Uruchom Civitas podczas logowania do systemu</translation>
+        <source>&amp;Start Enox on system login</source>
+        <translation>&amp;Uruchom Enox podczas logowania do systemu</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1212,18 +1212,18 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Civitas.</source>
-        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie Civitas</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Enox.</source>
+        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie Enox</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/civitas-project/civitas-project-translations</source>
+https://www.transifex.com/enox-project/enox-project-translations</source>
         <translation>Brakuje języka bądź nieukończona pełnego tłumaczenia? Pomóż w tłumaczeniu tutaj:
-https://www.transifex.com/civitas-project/civitas-project-translations </translation>
+https://www.transifex.com/enox-project/enox-project-translations </translation>
     </message>
     <message>
-        <source>Connect to the Civitas network through a SOCKS5 proxy.</source>
-        <translation>Połącz z siecią Civitas poprzez SOCKS5 proxy.</translation>
+        <source>Connect to the Enox network through a SOCKS5 proxy.</source>
+        <translation>Połącz z siecią Enox poprzez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1461,8 +1461,8 @@ https://www.transifex.com/civitas-project/civitas-project-translations </transla
         <translation>Liczba</translation>
     </message>
     <message>
-        <source>Enter a Civitas address (e.g. %1)</source>
-        <translation>Wprowadź adres Civitas (np. %1)</translation>
+        <source>Enter a Enox address (e.g. %1)</source>
+        <translation>Wprowadź adres Enox (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1900,8 +1900,8 @@ https://www.transifex.com/civitas-project/civitas-project-translations </transla
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Civitas address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres Civitas jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this Enox address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres Enox jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1935,8 +1935,8 @@ https://www.transifex.com/civitas-project/civitas-project-translations </transla
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Civitas Core</source>
-        <translation>&amp;Rdzeń Civitas</translation>
+        <source>Enox Core</source>
+        <translation>&amp;Rdzeń Enox</translation>
     </message>
     </context>
 <context>
@@ -2034,7 +2034,7 @@ https://www.transifex.com/civitas-project/civitas-project-translations </transla
     </message>
     </context>
 <context>
-    <name>civitas-core</name>
+    <name>enox-core</name>
     <message>
         <source>Error</source>
         <translation>Błąd</translation>

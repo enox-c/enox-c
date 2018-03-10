@@ -1,6 +1,6 @@
-usr/local/bin/civitas-qt usr/bin
+usr/local/bin/enox-qt usr/bin
 share/pixmaps/bitcoin32.xpm usr/share/pixmaps
 share/pixmaps/bitcoin16.xpm usr/share/pixmaps
 share/pixmaps/bitcoin128.png usr/share/pixmaps
-debian/civitas-qt.desktop usr/share/applications
-debian/civitas-qt.protocol usr/share/kde4/services/
+debian/enox-qt.desktop usr/share/applications
+debian/enox-qt.protocol usr/share/kde4/services/

@@ -1,6 +1,6 @@
 [Protocol]
-exec=civitas-qt '%u'
-protocol=civitas
+exec=enox-qt '%u'
+protocol=enox
 input=none
 output=none
 helper=true

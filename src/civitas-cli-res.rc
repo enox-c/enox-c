@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Civitas"
-            VALUE "FileDescription",    "Civitas-cli (OSS RPC client for Civitas)"
+            VALUE "CompanyName",        "Enox"
+            VALUE "FileDescription",    "Enox-cli (OSS RPC client for Enox)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "civitas-cli"
+            VALUE "InternalName",       "enox-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "civitas-cli.exe"
-            VALUE "ProductName",        "Civitas-cli"
+            VALUE "OriginalFilename",   "enox-cli.exe"
+            VALUE "ProductName",        "Enox-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

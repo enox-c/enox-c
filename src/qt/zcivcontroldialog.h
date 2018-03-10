@@ -1,10 +1,10 @@
 // Copyright (c) 2017 The PIVX developers
-// Copyright (c) 2017-2018 The Civitas developers
+// Copyright (c) 2017-2018 The Enox developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef ZCIVCONTROLDIALOG_H
-#define ZCIVCONTROLDIALOG_H
+#ifndef ZENXCONTROLDIALOG_H
+#define ZENXCONTROLDIALOG_H
 
 #include <QDialog>
 #include <QTreeWidgetItem>
@@ -53,4 +53,4 @@ private slots:
     void ButtonAllClicked();
 };
 
-#endif // ZCIVCONTROLDIALOG_H
+#endif // ZENXCONTROLDIALOG_H

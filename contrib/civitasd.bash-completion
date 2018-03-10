@@ -1,12 +1,12 @@
-# bash programmable completion for civitasd(1) and civitas-cli(1)
+# bash programmable completion for enoxd(1) and enox-cli(1)
 # Copyright (c) 2012,2014 Christian von Roques <roques@mti.ag>
 # Distributed under the MIT/X11 software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-have civitasd && {
+have enoxd && {
 
-# call $civitasd for RPC
-_civitas_rpc() {
+# call $enoxd for RPC
+_enox_rpc() {
     # determine already specified args necessary for RPC
     local rpcargs=()
     for i in ${COMP_LINE}; do
@@ -16,23 +16,23 @@ _civitas_rpc() {
                 ;;
         esac
     done
-    $civitasd "${rpcargs[@]}" "$@"
+    $enoxd "${rpcargs[@]}" "$@"
 }
 
-# Add civitas accounts to COMPREPLY
-_civitas_accounts() {
+# Add enox accounts to COMPREPLY
+_enox_accounts() {
     local accounts
-    accounts=$(_civitas_rpc listaccounts | awk '/".*"/ { a=$1; gsub(/"/, "", a); print a}')
+    accounts=$(_enox_rpc listaccounts | awk '/".*"/ { a=$1; gsub(/"/, "", a); print a}')
     COMPREPLY=( "${COMPREPLY[@]}" $( compgen -W "$accounts" -- "$cur" ) )
 }
 
-_civitasd() {
+_enoxd() {
     local cur prev words=() cword
-    local civitasd
+    local enoxd
 
-    # save and use original argument to invoke civitasd
-    # civitasd might not be in $PATH
-    civitasd="$1"
+    # save and use original argument to invoke enoxd
+    # enoxd might not be in $PATH
+    enoxd="$1"
 
     COMPREPLY=()
     _get_comp_words_by_ref -n = cur prev words cword
@@ -53,7 +53,7 @@ _civitasd() {
     if ((cword > 3)); then
         case ${words[cword-3]} in
             addmultisigaddress)
-                _civitas_accounts
+                _enox_accounts
                 return 0
                 ;;
             getbalance|gettxout|importaddress|importprivkey|listreceivedbyaccount|listreceivedbyaddress|listsinceblock)
@@ -74,7 +74,7 @@ _civitasd() {
                 return 0
                 ;;
             move|setaccount)
-                _civitas_accounts
+                _enox_accounts
                 return 0
                 ;;
         esac
@@ -90,7 +90,7 @@ _civitasd() {
             return 0
             ;;
         getaccountaddress|getaddressesbyaccount|getbalance|getnewaddress|getreceivedbyaccount|listtransactions|move|sendfrom|sendmany)
-            _civitas_accounts
+            _enox_accounts
             return 0
             ;;
     esac
@@ -114,12 +114,12 @@ _civitasd() {
 
             # only parse --help if senseful
             if [[ -z "$cur" || "$cur" =~ ^- ]]; then
-                helpopts=$($civitasd --help 2>&1 | awk '$1 ~ /^-/ { sub(/=.*/, "="); print $1 }' )
+                helpopts=$($enoxd --help 2>&1 | awk '$1 ~ /^-/ { sub(/=.*/, "="); print $1 }' )
             fi
 
             # only parse help if senseful
             if [[ -z "$cur" || "$cur" =~ ^[a-z] ]]; then
-                commands=$(_civitas_rpc help 2>/dev/null | awk '$1 ~ /^[a-z]/ { print $1; }')
+                commands=$(_enox_rpc help 2>/dev/null | awk '$1 ~ /^[a-z]/ { print $1; }')
             fi
 
             COMPREPLY=( $( compgen -W "$helpopts $commands" -- "$cur" ) )
@@ -133,7 +133,7 @@ _civitasd() {
     esac
 }
 
-complete -F _civitasd civitasd civitas-cli
+complete -F _enoxd enoxd enox-cli
 }
 
 # Local variables:

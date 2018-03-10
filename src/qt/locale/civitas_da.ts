@@ -62,11 +62,11 @@
         <translation>Modtageradresse</translation>
     </message>
     <message>
-        <source>These are your Civitas addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Enox addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Dine adresser til at sende betalinger med. Kontroller altid både beløb og modtageradresse før afsendelse.</translation>
     </message>
     <message>
-        <source>These are your Civitas addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Enox addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Dette er dine modtager adresser. Det anbefales at anvende en ny adresse til hver transaktion</translation>
     </message>
     <message>
@@ -176,16 +176,16 @@
         <translation>Bekræft, og tegnebogen krypteres.</translation>
     </message>
     <message>
-        <source>Civitas will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CIVs from being stolen by malware infecting your computer.</source>
-        <translation>Civitas vil lukke ned for at færdiggøre kryptograferingsprocesserne. Husk at kryptering alene ikke sikrer mod tyveri af mønterne fra malware eller virus på computeren.</translation>
+        <source>Enox will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ENXs from being stolen by malware infecting your computer.</source>
+        <translation>Enox vil lukke ned for at færdiggøre kryptograferingsprocesserne. Husk at kryptering alene ikke sikrer mod tyveri af mønterne fra malware eller virus på computeren.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Er du sikker på, at du vil kryptere din tegnebog?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CIV&lt;/b&gt;!</source>
-        <translation>Advarsel! Hvis du krypterer din tegnebog og mister dit password vil du &lt;b&gt;MISTE ALLE DINE CIV&lt;/b&gt;. Passworded kan ikke genskabes.</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ENX&lt;/b&gt;!</source>
+        <translation>Advarsel! Hvis du krypterer din tegnebog og mister dit password vil du &lt;b&gt;MISTE ALLE DINE ENX&lt;/b&gt;. Passworded kan ikke genskabes.</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +239,16 @@
         <translation>BIP 38 kryptografering</translation>
     </message>
     <message>
-        <source>Enter a Civitas Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Indtast den Civitas adresse De ønsker at kryptografere ved hjælp af BIP 38. Indtast et kodeord i den midterste boks. Klik på krypter for at generere den kryptograferede private nøgle.</translation>
+        <source>Enter a Enox Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Indtast den Enox adresse De ønsker at kryptografere ved hjælp af BIP 38. Indtast et kodeord i den midterste boks. Klik på krypter for at generere den kryptograferede private nøgle.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresse</translation>
     </message>
     <message>
-        <source>The Civitas address to sign the message with</source>
-        <translation>Den Civitas adresse, der skal bruges til at underskrive beskeden med.</translation>
+        <source>The Enox address to sign the message with</source>
+        <translation>Den Enox adresse, der skal bruges til at underskrive beskeden med.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Kopier den aktuelle underskrift til udklipsholderen.</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Civitas address</source>
-        <translation>Underskriv beskeden for at bevise, at De ejer denne Civitas adresse.</translation>
+        <source>Sign the message to prove you own this Enox address</source>
+        <translation>Underskriv beskeden for at bevise, at De ejer denne Enox adresse.</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Indtast den krypterede BIP 38 nøgle. Indtast kodeordet i den midterste boks. Klik på dekryptér for at generere den private nøgle. Når nøglen er dekrypteret vil klip på "importér adresse" overføre den private nøgle til tegnebogen.</translation>
     </message>
     <message>
-        <source>The Civitas address the message was signed with</source>
-        <translation>Beskeden er underskrevet med denne Civitas adresse</translation>
+        <source>The Enox address the message was signed with</source>
+        <translation>Beskeden er underskrevet med denne Enox adresse</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Civitas address</source>
-        <translation>verificer beskeden for at sikre, at den blev underskrevet med den rigtige Civitas adresse.</translation>
+        <source>Verify the message to ensure it was signed with the specified Enox address</source>
+        <translation>verificer beskeden for at sikre, at den blev underskrevet med den rigtige Enox adresse.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -598,16 +598,16 @@
         <translation>Værktøjslinier</translation>
     </message>
     <message>
-        <source>Civitas Core</source>
-        <translation>Civitas kerne</translation>
+        <source>Enox Core</source>
+        <translation>Enox kerne</translation>
     </message>
     <message>
-        <source>Send coins to a Civitas address</source>
-        <translation>Send mønter til en Civitas adresse</translation>
+        <source>Send coins to a Enox address</source>
+        <translation>Send mønter til en Enox adresse</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and civitas: URIs)</source>
-        <translation>Anmod om betaling (genrerer QR kode og Civitas URL)</translation>
+        <source>Request payments (generates QR codes and enox: URIs)</source>
+        <translation>Anmod om betaling (genrerer QR kode og Enox URL)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -618,24 +618,24 @@
         <translation>Vis masternoder</translation>
     </message>
     <message>
-        <source>&amp;About Civitas Core</source>
-        <translation>&amp;Om Civitas kerne</translation>
+        <source>&amp;About Enox Core</source>
+        <translation>&amp;Om Enox kerne</translation>
     </message>
     <message>
-        <source>Show information about Civitas Core</source>
-        <translation>Vis information om Civitas kerne</translation>
+        <source>Show information about Enox Core</source>
+        <translation>Vis information om Enox kerne</translation>
     </message>
     <message>
-        <source>Modify configuration options for Civitas</source>
-        <translation>Ret konfigurationsindstillinger for Civitas</translation>
+        <source>Modify configuration options for Enox</source>
+        <translation>Ret konfigurationsindstillinger for Enox</translation>
     </message>
     <message>
-        <source>Sign messages with your Civitas addresses to prove you own them</source>
-        <translation>Underskriv beskeder med Deres Civitas adresser for at bekræfte at De ejer dem.</translation>
+        <source>Sign messages with your Enox addresses to prove you own them</source>
+        <translation>Underskriv beskeder med Deres Enox adresser for at bekræfte at De ejer dem.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Civitas addresses</source>
-        <translation>Verificer besked for at sikre, at den er underskrevet med den opgivne Civitas adresse</translation>
+        <source>Verify messages to ensure they were signed with specified Enox addresses</source>
+        <translation>Verificer besked for at sikre, at den er underskrevet med den opgivne Enox adresse</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +666,8 @@
         <translation>ÅbnMasternode konfigurationsfil</translation>
     </message>
     <message>
-        <source>Open a Civitas: URI or payment request</source>
-        <translation>Åbn en Civitas URl eller betalingsanmodning</translation>
+        <source>Open a Enox: URI or payment request</source>
+        <translation>Åbn en Enox URl eller betalingsanmodning</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +678,12 @@
         <translation>Blockexplorer vindue</translation>
     </message>
     <message>
-        <source>Show the Civitas Core help message to get a list with possible Civitas command-line options</source>
-        <translation>Vis hjelpetekster fra Civitas kernen for at få en liste med mulige Civitas kommandolinie-startparametre</translation>
+        <source>Show the Enox Core help message to get a list with possible Enox command-line options</source>
+        <translation>Vis hjelpetekster fra Enox kernen for at få en liste med mulige Enox kommandolinie-startparametre</translation>
     </message>
     <message>
-        <source>Civitas Core client</source>
-        <translation>Civitas kerneklient</translation>
+        <source>Enox Core client</source>
+        <translation>Enox kerneklient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -813,8 +813,8 @@ Adresse: %4
         <translation>Tekstmærke</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (civitas.conf).</source>
-        <translation>Ikke alle transaktioner vil blive vist. For at vise alle transaktioner må De sætte "txindex=1" i konfigurationsfilen (civitas.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (enox.conf).</source>
+        <translation>Ikke alle transaktioner vil blive vist. For at vise alle transaktioner må De sætte "txindex=1" i konfigurationsfilen (enox.conf).</translation>
     </message>
 </context>
 <context>
@@ -1098,8 +1098,8 @@ Adresse: %4
         <translation>Ret afsenderadresse</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Civitas address.</source>
-        <translation>Den indtastede adresse %1 er ikke en gyldig Civitas adresse</translation>
+        <source>The entered address "%1" is not a valid Enox address.</source>
+        <translation>Den indtastede adresse %1 er ikke en gyldig Enox adresse</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1144,16 +1144,16 @@ Adresse: %4
         <translation>version</translation>
     </message>
     <message>
-        <source>Civitas Core</source>
-        <translation>Civitas kerne</translation>
+        <source>Enox Core</source>
+        <translation>Enox kerne</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Civitas Core</source>
-        <translation>om Civitas kerne</translation>
+        <source>About Enox Core</source>
+        <translation>om Enox kerne</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1199,16 +1199,16 @@ Adresse: %4
         <translation>Velkommen</translation>
     </message>
     <message>
-        <source>Welcome to Civitas Core.</source>
-        <translation>Velkommen til Civitas kerne</translation>
+        <source>Welcome to Enox Core.</source>
+        <translation>Velkommen til Enox kerne</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Civitas Core will store its data.</source>
-        <translation>Da det er første gang programmet startes, kan De vælge hvor Civitas kernen skal lagre sine data</translation>
+        <source>As this is the first time the program is launched, you can choose where Enox Core will store its data.</source>
+        <translation>Da det er første gang programmet startes, kan De vælge hvor Enox kernen skal lagre sine data</translation>
     </message>
     <message>
-        <source>Civitas Core will download and store a copy of the Civitas block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Civitas kernen vil nu hente og gemme en kopi af Civitas blockchain. Der skal være mindst %1GB ledigt på lagermediet, og behovet vil stige efterhånden som tiden går. Selve tegnebogen vil også blive gemt her.</translation>
+        <source>Enox Core will download and store a copy of the Enox block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Enox kernen vil nu hente og gemme en kopi af Enox blockchain. Der skal være mindst %1GB ledigt på lagermediet, og behovet vil stige efterhånden som tiden går. Selve tegnebogen vil også blive gemt her.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1219,8 +1219,8 @@ Adresse: %4
         <translation>Anvend en mappe valgt af brugeren</translation>
     </message>
     <message>
-        <source>Civitas Core</source>
-        <translation>Civitas kerne</translation>
+        <source>Enox Core</source>
+        <translation>Enox kerne</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1361,12 +1361,12 @@ Adresse: %4
         <translation>Indtast modtageradresse</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Civitas addresses after it matures.
-To Add: enter percentage to give and Civitas address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other Enox addresses after it matures.
+To Add: enter percentage to give and Enox address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>Multisend tillader at De automatisk kan sende op til 100% af Deres belønninger fra såvel indskud som masternodebelønninger til en liste over andre Civitas adressater når den er tilstrækkelig stor. 
-For at tilføje: Indtast procentsatsen De ønsker at overføre samt den Civitas adresse som skal modtage via Multisendsystemet. 
+        <translation>Multisend tillader at De automatisk kan sende op til 100% af Deres belønninger fra såvel indskud som masternodebelønninger til en liste over andre Enox adressater når den er tilstrækkelig stor. 
+For at tilføje: Indtast procentsatsen De ønsker at overføre samt den Enox adresse som skal modtage via Multisendsystemet. 
 For at fjerne: Indtast adressen som skal slettes og klik på slet. 
 Multisend vil ikke fungere med mindre systemet er aktiveret.</translation>
     </message>
@@ -1504,48 +1504,48 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Vælg tilsløringsniveau</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 CIV</source>
-        <translation>Brug 2 separate masternoder for at tilsløre beløb op til 10000 CIV</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 ENX</source>
+        <translation>Brug 2 separate masternoder for at tilsløre beløb op til 10000 ENX</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 CIV</source>
-        <translation>Brug 8 separate masternoder for at tilsløre op til 10000 CIV</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 ENX</source>
+        <translation>Brug 8 separate masternoder for at tilsløre op til 10000 ENX</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Brug 16 separate masternoder</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 CIV to anonymize 10000 CIV</source>
-        <translation>Dette valg er det hurtigste og vil koste i omegnen af 0.025 CIV for at anonymiser 10000 CIV</translation>
+        <source>This option is the quickest and will cost about ~0.025 ENX to anonymize 10000 ENX</source>
+        <translation>Dette valg er det hurtigste og vil koste i omegnen af 0.025 ENX for at anonymiser 10000 ENX</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 CIV to anonymize 10000 CIV</source>
-        <translation>Dette valg er relativt hurtigt og vil koste i omegnen af 0.05 CIV for at anonymiser 10000 CIV</translation>
+        <source>This option is moderately fast and will cost about 0.05 ENX to anonymize 10000 ENX</source>
+        <translation>Dette valg er relativt hurtigt og vil koste i omegnen af 0.05 ENX for at anonymiser 10000 ENX</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Denne mulighed er den langsomste og det mest sikre valg. Valg af maksimal tilsløring vil koste</translation>
     </message>
     <message>
-        <source>0.1 CIV per 10000 CIV you anonymize.</source>
-        <translation>0.1 pr 10000 CIV for at tilsløre.</translation>
+        <source>0.1 ENX per 10000 ENX you anonymize.</source>
+        <translation>0.1 pr 10000 ENX for at tilsløre.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Tilsløringskonfiguration</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Civitas's configuration screen.</source>
-        <translation>Tilsløring blev sat til grundlæggende (%1 og 2 gennemløb) De kan ændre dette hvornår De vil ved at åbne Civitas konfigurationsbillede.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Enox's configuration screen.</source>
+        <translation>Tilsløring blev sat til grundlæggende (%1 og 2 gennemløb) De kan ændre dette hvornår De vil ved at åbne Enox konfigurationsbillede.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Civitas's configuration screen.</source>
-        <translation>Tilsløring blev sat til høj (%1 og 8 gennemløb) De kan ændre dette hvornår De vil ved at åbne Civitas konfigurationsbillede.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Enox's configuration screen.</source>
+        <translation>Tilsløring blev sat til høj (%1 og 8 gennemløb) De kan ændre dette hvornår De vil ved at åbne Enox konfigurationsbillede.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Civitas's configuration screen.</source>
-        <translation>Tilsløring blev sat til maksimum (%1 og 16 gennemløb) De kan ændre dette hvornår De vil ved at åbne Civitas konfigurationsbillede.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Enox's configuration screen.</source>
+        <translation>Tilsløring blev sat til maksimum (%1 og 16 gennemløb) De kan ændre dette hvornår De vil ved at åbne Enox konfigurationsbillede.</translation>
     </message>
 </context>
 <context>
@@ -1606,8 +1606,8 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Hvis De slår "brug af ubekræftede penge tilbage" vil penge tilbage &lt;br/&gt; ikke kunne benyttes før transaktionen er bekræftet mindst en gang. &lt;br/&gt;Dette har også indflydelse på opgørelsen af saldoen.</translation>
     </message>
     <message>
-        <source>Automatically open the Civitas client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Åbn Civitas klientporten på ruteren automatisk. Virker kun hvis UPnP er slået til i ruteren. </translation>
+        <source>Automatically open the Enox client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Åbn Enox klientporten på ruteren automatisk. Virker kun hvis UPnP er slået til i ruteren. </translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1626,12 +1626,12 @@ Kontroller adressen og prøv igen.</translation>
         <translation>Ekspert</translation>
     </message>
     <message>
-        <source>Automatically start Civitas after logging in to the system.</source>
-        <translation>Start Civitas automatisk, når der logges på systemet</translation>
+        <source>Automatically start Enox after logging in to the system.</source>
+        <translation>Start Enox automatisk, når der logges på systemet</translation>
     </message>
     <message>
-        <source>&amp;Start Civitas on system login</source>
-        <translation>&amp;start Civitas når der logges på systemet</translation>
+        <source>&amp;Start Enox on system login</source>
+        <translation>&amp;start Enox når der logges på systemet</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1658,22 +1658,22 @@ Kontroller adressen og prøv igen.</translation>
         <translation>&amp;netværk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Civitas.</source>
-        <translation>Vælg sprog her. Ændringerne træder i kraft næste gang Civitas klienten startes</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Enox.</source>
+        <translation>Vælg sprog her. Ændringerne træder i kraft næste gang Enox klienten startes</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/civitas-project/civitas-project-translations</source>
+https://www.transifex.com/enox-project/enox-project-translations</source>
         <translation>Det valgte sprog mangler, eller oversættelsen er mangelfuld. Hjælp ved at bidrage med oversættelser her:
-https://www.transifex.com/civitas-project/civitas-project-translations</translation>
+https://www.transifex.com/enox-project/enox-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>MAP port ved hjælp af UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Civitas network through a SOCKS5 proxy.</source>
-        <translation>Tilslut Civitas netværket gennem en SOCKS5 PROXY</translation>
+        <source>Connect to the Enox network through a SOCKS5 proxy.</source>
+        <translation>Tilslut Enox netværket gennem en SOCKS5 PROXY</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1823,8 +1823,8 @@ https://www.transifex.com/civitas-project/civitas-project-translations</translat
         <translation>Indskyder- eller masternodebelønning er stadig under behandling</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Civitas network after a connection is established, but this process has not completed yet.</source>
-        <translation>De viste informationer kan være uddaterede. Deres tegnebog synkronisere automatism med Civitas netværket så snart en forbindelse er etalbleret, men denne proces er ikke færdiggjort endnu. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Enox network after a connection is established, but this process has not completed yet.</source>
+        <translation>De viste informationer kan være uddaterede. Deres tegnebog synkronisere automatism med Enox netværket så snart en forbindelse er etalbleret, men denne proces er ikke færdiggjort endnu. </translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1890,11 +1890,11 @@ https://www.transifex.com/civitas-project/civitas-project-translations</translat
         <translation>Ugyldig betalingsadresse: %1</translation>
     </message>
     <message>
-        <source>Cannot start civitas: click-to-pay handler</source>
-        <translation>Kan ikke starte Civitas "klik for at betale" systemet</translation>
+        <source>Cannot start enox: click-to-pay handler</source>
+        <translation>Kan ikke starte Enox "klik for at betale" systemet</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Civitas address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Enox address or malformed URI parameters.</source>
         <translation>URl kan ikke fortolkes! Det kan skyldes en ugyldig adresse, eller forkerte URl parametre.</translation>
     </message>
     <message>
@@ -1976,8 +1976,8 @@ https://www.transifex.com/civitas-project/civitas-project-translations</translat
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Civitas network after a connection is established, but this process has not completed yet.</source>
-        <translation>De viste informationer kan være uddaterede. Deres tegnebog synkronisere automatism med Civitas netværket så snart en forbindelse er etalbleret, men denne proces er ikke færdiggjort endnu. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Enox network after a connection is established, but this process has not completed yet.</source>
+        <translation>De viste informationer kan være uddaterede. Deres tegnebog synkronisere automatism med Enox netværket så snart en forbindelse er etalbleret, men denne proces er ikke færdiggjort endnu. </translation>
     </message>
     <message>
         <source>0</source>
@@ -2095,8 +2095,8 @@ https://www.transifex.com/civitas-project/civitas-project-translations</translat
         <translation>Beløb</translation>
     </message>
     <message>
-        <source>Enter a Civitas address (e.g. %1)</source>
-        <translation>Indtast en Civitas adresse (F.eks. %1)</translation>
+        <source>Enter a Enox address (e.g. %1)</source>
+        <translation>Indtast en Enox adresse (F.eks. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2229,8 +2229,8 @@ https://www.transifex.com/civitas-project/civitas-project-translations</translat
         <translation>Block chain</translation>
     </message>
     <message>
-        <source>Open the Civitas debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Åbn Civitas debug logfilen fra den aktuelle datamappe. Det kan godt tage lidt tid hvis filen er meget stor.</translation>
+        <source>Open the Enox debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Åbn Enox debug logfilen fra den aktuelle datamappe. Det kan godt tage lidt tid hvis filen er meget stor.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2397,8 +2397,8 @@ https://www.transifex.com/civitas-project/civitas-project-translations</translat
         <translation>Ud:</translation>
     </message>
     <message>
-        <source>Welcome to the Civitas RPC console.</source>
-        <translation>Velkommen til Civitas RPC konsollet</translation>
+        <source>Welcome to the Enox RPC console.</source>
+        <translation>Velkommen til Enox RPC konsollet</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2468,12 +2468,12 @@ https://www.transifex.com/civitas-project/civitas-project-translations</translat
         <translation>Valgfri opmærkning som tilknyttes den nye modtageradresse.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Civitas network.</source>
-        <translation>Valgfri besked som vedhæftes betalingsanmodnigen, og som bliver vist når anmodningen åbnes. Note: Beskeden fremsendes ikke sammen med betalingen, når denne sendes ud på Civitas netværket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Enox network.</source>
+        <translation>Valgfri besked som vedhæftes betalingsanmodnigen, og som bliver vist når anmodningen åbnes. Note: Beskeden fremsendes ikke sammen med betalingen, når denne sendes ud på Enox netværket.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Civitas network.</source>
-        <translation>Valgfri besked som vedhæftes betalingsanmodnigen, og som bliver vist når anmodningen åbnes. &lt;br&gt;Note: Beskeden fremsendes ikke sammen med betalingen, når denne sendes ud på Civitas netværket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the Enox network.</source>
+        <translation>Valgfri besked som vedhæftes betalingsanmodnigen, og som bliver vist når anmodningen åbnes. &lt;br&gt;Note: Beskeden fremsendes ikke sammen med betalingen, når denne sendes ud på Enox netværket.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2697,8 +2697,8 @@ https://www.transifex.com/civitas-project/civitas-project-translations</translat
         <translation>UTXO størrelse:</translation>
     </message>
     <message>
-        <source>0 CIV</source>
-        <translation>0 CIV</translation>
+        <source>0 ENX</source>
+        <translation>0 ENX</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2741,15 +2741,15 @@ https://www.transifex.com/civitas-project/civitas-project-translations</translat
         <translation>Bekræftelsestid</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uCIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uCIVs in fee,&lt;br /&gt;while "at least" pays 1000 uCIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uCIVs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uCIV i gebyr, &lt;br /&gt; mens "mindst" udbetaler 1000 uCIVs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
+        <source>If the custom fee is set to 1000 uENXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uENXs in fee,&lt;br /&gt;while "at least" pays 1000 uENXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uENXs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uENX i gebyr, &lt;br /&gt; mens "mindst" udbetaler 1000 uENXs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uCIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uCIVs in fee,&lt;br /&gt;while "total at least" pays 1000 uCIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uCIVs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uCIV i gebyr, &lt;br /&gt; mens "Total-mindst" udbetaler 1000 uCIVs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
+        <source>If the custom fee is set to 1000 uENXs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uENXs in fee,&lt;br /&gt;while "total at least" pays 1000 uENXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uENXs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uENX i gebyr, &lt;br /&gt; mens "Total-mindst" udbetaler 1000 uENXs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Civitas transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for Enox transactions than the network can process.</source>
         <translation>Betaling af mindste transaktionsgebyr vil være fint så længe der er færre transaktioner end der er plads til i blokkene. &lt;br /&gt; Men opmærksomheden henledes på, at det kan resultere i en transaktion der aldrig bliver bekræftet i det øjeblik der er større behov for transaktioner end netværket har plads til. </translation>
     </message>
     <message>
@@ -2853,8 +2853,8 @@ https://www.transifex.com/civitas-project/civitas-project-translations</translat
         <translation>Anonyme saldi</translation>
     </message>
     <message>
-        <source>Warning: Invalid Civitas address</source>
-        <translation>Advarsel! Ugyldig Civitas adresse</translation>
+        <source>Warning: Invalid Enox address</source>
+        <translation>Advarsel! Ugyldig Enox adresse</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -2952,8 +2952,8 @@ https://www.transifex.com/civitas-project/civitas-project-translations</translat
         <translation>Betal &amp;Til</translation>
     </message>
     <message>
-        <source>The Civitas address to send the payment to</source>
-        <translation>Civitas adressen, som betalingen skal sendes til</translation>
+        <source>The Enox address to send the payment to</source>
+        <translation>Enox adressen, som betalingen skal sendes til</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2992,8 +2992,8 @@ https://www.transifex.com/civitas-project/civitas-project-translations</translat
         <translation>Besked</translation>
     </message>
     <message>
-        <source>A message that was attached to the Civitas: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Civitas network.</source>
-        <translation>En besked, der var vedhæftet til Civitas: URl wil blive gemt sammen med transaktionen som reference. Note: Beskeden bliver medsendt transaktionen over netværket.</translation>
+        <source>A message that was attached to the Enox: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Enox network.</source>
+        <translation>En besked, der var vedhæftet til Enox: URl wil blive gemt sammen med transaktionen som reference. Note: Beskeden bliver medsendt transaktionen over netværket.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3019,8 +3019,8 @@ https://www.transifex.com/civitas-project/civitas-project-translations</translat
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Civitas Core is shutting down...</source>
-        <translation>Civitas kernen lukker ned</translation>
+        <source>Enox Core is shutting down...</source>
+        <translation>Enox kernen lukker ned</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3042,8 +3042,8 @@ https://www.transifex.com/civitas-project/civitas-project-translations</translat
         <translation>De kan underskrive beskeder med Deres adresser or at bevise ejerskab. Vær forsigtig med at underskrive noget De er usikker på såsom forsøg op at narre Dem til at oplyse Deres identitet. Skriv kun under på noget De kan stå inde for, og som De er enig i. </translation>
     </message>
     <message>
-        <source>The Civitas address to sign the message with</source>
-        <translation>Den Civitas adresse, der skal bruges til at underskrive beskeden med.</translation>
+        <source>The Enox address to sign the message with</source>
+        <translation>Den Enox adresse, der skal bruges til at underskrive beskeden med.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3074,16 +3074,16 @@ https://www.transifex.com/civitas-project/civitas-project-translations</translat
         <translation>Kopier den aktuelle underskrift til udklipsholderen.</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Civitas address</source>
-        <translation>Underskriv beskeden for at bevise, at De ejer denne Civitas adresse.</translation>
+        <source>Sign the message to prove you own this Enox address</source>
+        <translation>Underskriv beskeden for at bevise, at De ejer denne Enox adresse.</translation>
     </message>
     <message>
-        <source>The Civitas address the message was signed with</source>
-        <translation>Beskeden er underskrevet med denne Civitas adresse</translation>
+        <source>The Enox address the message was signed with</source>
+        <translation>Beskeden er underskrevet med denne Enox adresse</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Civitas address</source>
-        <translation>verificer beskeden for at sikre, at den blev underskrevet med den rigtige Civitas adresse.</translation>
+        <source>Verify the message to ensure it was signed with the specified Enox address</source>
+        <translation>verificer beskeden for at sikre, at den blev underskrevet med den rigtige Enox adresse.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3169,8 +3169,8 @@ https://www.transifex.com/civitas-project/civitas-project-translations</translat
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Civitas Core</source>
-        <translation>Civitas kerne</translation>
+        <source>Enox Core</source>
+        <translation>Enox kerne</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3185,8 +3185,8 @@ https://www.transifex.com/civitas-project/civitas-project-translations</translat
         <translation>DASH "core" udviklerne</translation>
     </message>
     <message>
-        <source>The Civitas Core developers</source>
-        <translation>Civitas "core" udviklerne</translation>
+        <source>The Enox Core developers</source>
+        <translation>Enox "core" udviklerne</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3717,8 +3717,8 @@ https://www.transifex.com/civitas-project/civitas-project-translations</translat
         <translation>Send mønter</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 CIV.</source>
-        <translation>SwiftTx understøtter ikke afsendelse af så store beløb endnu. Transaktioner er for tiden begrænsede til %1CIV.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 ENX.</source>
+        <translation>SwiftTx understøtter ikke afsendelse af så store beløb endnu. Transaktioner er for tiden begrænsede til %1ENX.</translation>
     </message>
 </context>
 <context>
@@ -3768,7 +3768,7 @@ https://www.transifex.com/civitas-project/civitas-project-translations</translat
     </message>
     </context>
 <context>
-    <name>civitas-core</name>
+    <name>enox-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = beholdtx metadata. For eksempel information om kontoejer og betalngsanmodninger, 2 = drop TX metadata)</translation>
@@ -3794,8 +3794,8 @@ https://www.transifex.com/civitas-project/civitas-project-translations</translat
         <translation>Forbind til den opgivne adresse og lyt efter JSON-.RPC forbindelser. Brug [host]:port notation for IPv6. Der kan indsættes flere linier (standard: Forbind til alle interfaces)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Civitas Core is probably already running.</source>
-        <translation>Kan ikke låse datamappen %s. Civitas core kører sandsynligvis allerede.</translation>
+        <source>Cannot obtain a lock on data directory %s. Enox Core is probably already running.</source>
+        <translation>Kan ikke låse datamappen %s. Enox core kører sandsynligvis allerede.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -3814,8 +3814,8 @@ https://www.transifex.com/civitas-project/civitas-project-translations</translat
         <translation>Slet alle tegnebogens transaktioner og genskab kun fra blokkæden ved at tilføje -rescan i forbindes med opstart.</translation>
     </message>
     <message>
-        <source>Disable all Civitas specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Slå alle Civitas funktioner fra (Masternoder, Tilsløring, SwiftTX, Budgetting)(0-1,default:%u)</translation>
+        <source>Disable all Enox specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Slå alle Enox funktioner fra (Masternoder, Tilsløring, SwiftTX, Budgetting)(0-1,default:%u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3855,12 +3855,12 @@ https://www.transifex.com/civitas-project/civitas-project-translations</translat
         <translation>Udfør en kommando når den bedste blok ændres (%s in cmd erstattes med blok hashen)</translation>
     </message>
     <message>
-        <source>Fees (in CIV/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Gebyrer (in CIV/kb) lavere end dette betragtes som et nul-gebyr for at videresende (default: %s)</translation>
+        <source>Fees (in ENX/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Gebyrer (in ENX/kb) lavere end dette betragtes som et nul-gebyr for at videresende (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in CIV/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Gebyrer (in CIV/kb) lavere end dette betragtes som et nul-gebyr for at oprette en transaktion (default: %s)</translation>
+        <source>Fees (in ENX/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Gebyrer (in ENX/kb) lavere end dette betragtes som et nul-gebyr for at oprette en transaktion (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -3908,7 +3908,7 @@ https://www.transifex.com/civitas-project/civitas-project-translations</translat
     </message>
     <message>
         <source>Obfuscation uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>Tilsløring bruger hele det tilslørede designerede beløb til at sende betalinger. De kan blot tilsløre yderligere Civitas</translation>
+        <translation>Tilsløring bruger hele det tilslørede designerede beløb til at sende betalinger. De kan blot tilsløre yderligere Enox</translation>
     </message>
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
@@ -3955,44 +3955,44 @@ https://www.transifex.com/civitas-project/civitas-project-translations</translat
         <translation>Dette produkt anvender software udviklet i OpenSSL projektet til brug i OpenSSL værktøjssættet &lt;https://www.openssl.org/&gt; og kryptosoftware skrevet afEric Young og UPnP software skrevet af Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use civitasd, or the -server option to civitas-qt, you must set an rpcpassword in the configuration file:
+        <source>To use enoxd, or the -server option to enox-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=civitasrpc
+rpcuser=enoxrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Civitas Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Enox Alert" admin@foo.com
 </source>
-        <translation>For at bruge civitasd eller -server muligheden sammen med civitas-qt skal der angives et rpc kodeord i konfigurationsfilen:
+        <translation>For at bruge enoxd eller -server muligheden sammen med enox-qt skal der angives et rpc kodeord i konfigurationsfilen:
 %s
 De anbefales at benytte følgende tilfældige kodeord
-Rpcuser=civitasrpc
+Rpcuser=enoxrpc
 rpcpasswrd=%s
 (Det er ikke nødvendigt at huske dette kodeord)
 Brugernavn og kodeord MÅ IKKE VÆRE ENS!
 Hvis filen ikke eksisterer, opret den med sikkerhedsindstillingen - ejer kun læserettigheder tilladelsen.
 Det anbefales tillige at vælge alertnotify til for at blive orienteret om eventuelle problemer.
-For eksempel: alertnotify=Echo %% | mail - s "Civitas ALARM!" e-mail@administrator.dk
+For eksempel: alertnotify=Echo %% | mail - s "Enox ALARM!" e-mail@administrator.dk
 </translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Civitas Core is probably already running.</source>
-        <translation>Det var ikke muligt at forbinde %s på denne computer. Civitas kører sandsynligvis allerede.</translation>
+        <source>Unable to bind to %s on this computer. Enox Core is probably already running.</source>
+        <translation>Det var ikke muligt at forbinde %s på denne computer. Enox kører sandsynligvis allerede.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
         <translation>Det er ikke muligt at allokere tilstrækkeligt med tilsløret designeret indestående for at gennemføre denne transaktion.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 CIV.</source>
-        <translation>Det er ikke muligt at allokere tilstrækkeligt med tilsløret  ikke-designeret indestående for at gennemføre denne transaktion, der ikke ækvivalerer 10000 CIV.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 ENX.</source>
+        <translation>Det er ikke muligt at allokere tilstrækkeligt med tilsløret  ikke-designeret indestående for at gennemføre denne transaktion, der ikke ækvivalerer 10000 ENX.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 CIV.</source>
-        <translation>Det var ikke muligt at allokere tilstrækkelige midler til denne transaktion som er forskellig fra 10000 CIV.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 ENX.</source>
+        <translation>Det var ikke muligt at allokere tilstrækkelige midler til denne transaktion som er forskellig fra 10000 ENX.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4007,8 +4007,8 @@ For eksempel: alertnotify=Echo %% | mail - s "Civitas ALARM!" e-mail@administrat
         <translation>Advarsel! -paytxfee er sat meget højt. Det er dette gebyr De kommer til at betale for transaktionen, hvis De gennemfører. </translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Civitas Core will not work properly.</source>
-        <translation>Advarsel! Kontroller at computerens dato og tid er korrekt indstillet. Hvis tiden ikke er rigtig, vil Civitas core ikke fungere ordentligt.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Enox Core will not work properly.</source>
+        <translation>Advarsel! Kontroller at computerens dato og tid er korrekt indstillet. Hvis tiden ikke er rigtig, vil Enox core ikke fungere ordentligt.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4155,8 +4155,8 @@ For eksempel: alertnotify=Echo %% | mail - s "Civitas ALARM!" e-mail@administrat
         <translation>Copyright (C) 2014-%i The Dash Core Developers </translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The Civitas Core Developers</source>
-        <translation>Copyright (C) 2015-%i The Civitas Core Developers</translation>
+        <source>Copyright (C) 2015-%i The Enox Core Developers</source>
+        <translation>Copyright (C) 2015-%i The Enox Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -4227,8 +4227,8 @@ For eksempel: alertnotify=Echo %% | mail - s "Civitas ALARM!" e-mail@administrat
         <translation>Fejl ved indlæsning af wallet.dat: Tegnebogen er beskadiget</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Civitas Core</source>
-        <translation>Fejl ved indlæsning af wallet.dat: Tegnebogen kræver en nyere version af Civitas core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Enox Core</source>
+        <translation>Fejl ved indlæsning af wallet.dat: Tegnebogen kræver en nyere version af Enox core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4279,8 +4279,8 @@ For eksempel: alertnotify=Echo %% | mail - s "Civitas ALARM!" e-mail@administrat
         <translation>Læsning af blokken mislykkedes</translation>
     </message>
     <message>
-        <source>Fee (in CIV/kB) to add to transactions you send (default: %s)</source>
-        <translation>Gebyr (i CIV/kB) som skal tilføjes transaktionen der sendes (default: %s)</translation>
+        <source>Fee (in ENX/kB) to add to transactions you send (default: %s)</source>
+        <translation>Gebyr (i ENX/kB) som skal tilføjes transaktionen der sendes (default: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -4339,8 +4339,8 @@ For eksempel: alertnotify=Echo %% | mail - s "Civitas ALARM!" e-mail@administrat
         <translation>Info:</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Civitas Core is shutting down.</source>
-        <translation>Initiering af sanitetskontrollen fejlede. Civitas core lukker ned. </translation>
+        <source>Initialization sanity check failed. Enox Core is shutting down.</source>
+        <translation>Initiering af sanitetskontrollen fejlede. Enox core lukker ned. </translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4895,8 +4895,8 @@ For eksempel: alertnotify=Echo %% | mail - s "Civitas ALARM!" e-mail@administrat
         <translation>Tegnebogen er låst</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Civitas Core to complete</source>
-        <translation>Tegnebogen måtte genskrives. Genstart Civitas core for at gøre færdig</translation>
+        <source>Wallet needed to be rewritten: restart Enox Core to complete</source>
+        <translation>Tegnebogen måtte genskrives. Genstart Enox core for at gøre færdig</translation>
     </message>
     <message>
         <source>Wallet options:</source>

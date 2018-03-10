@@ -96,7 +96,7 @@ public:
 };
 
 /**
- * Civitas RPC command dispatcher.
+ * Enox RPC command dispatcher.
  */
 class CRPCTable
 {

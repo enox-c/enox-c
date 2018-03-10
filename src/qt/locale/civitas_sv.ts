@@ -58,12 +58,12 @@
         <translation>Mottagar adresser</translation>
     </message>
     <message>
-        <source>These are your Civitas addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Det här är dina Civitas adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
+        <source>These are your Enox addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Det här är dina Enox adresser för att sända betalningar. Kontrollera alltid summan och mottagaradressen före du sänder mynt.</translation>
     </message>
     <message>
-        <source>These are your Civitas addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Det här är dina Civitas adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
+        <source>These are your Enox addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Det här är dina Enox adresser för att ta emot betalningar. Det är rekomenderat att använda en ny mottagaradress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -160,16 +160,16 @@
         <translation>Bekräfta plånboks krypering</translation>
     </message>
     <message>
-        <source>Civitas will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CIVs from being stolen by malware infecting your computer.</source>
-        <translation>Civitas kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina CIVs från att bli stulna av skadeprogram som infekterat din dator.</translation>
+        <source>Enox will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ENXs from being stolen by malware infecting your computer.</source>
+        <translation>Enox kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina ENXs från att bli stulna av skadeprogram som infekterat din dator.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Är du säker på att du vill kryptera din plånbok?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CIV&lt;/b&gt;!</source>
-        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA CIV&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ENX&lt;/b&gt;!</source>
+        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA ENX&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -223,8 +223,8 @@
         <translation>BIP 38 Kryptering</translation>
     </message>
     <message>
-        <source>Enter a Civitas Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Ange en Civitas adress som du vill kryptera med BIP 38.
+        <source>Enter a Enox Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Ange en Enox adress som du vill kryptera med BIP 38.
 Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den krypterade privata nyckeln.</translation>
     </message>
     <message>
@@ -232,8 +232,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Adress:</translation>
     </message>
     <message>
-        <source>The Civitas address to sign the message with</source>
-        <translation>Civitas adressen för signera meddelandet med</translation>
+        <source>The Enox address to sign the message with</source>
+        <translation>Enox adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -264,8 +264,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Civitas address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna Civitas adress</translation>
+        <source>Sign the message to prove you own this Enox address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna Enox adress</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -288,12 +288,12 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Ange BIP 38 krypterade privata nyckeln. Ange lösenfrasen i med mittersta boxen. Tryck på krypetra nyckel för att beräkna den privata nyckeln. Efter att nyckeln är avkrypterad, Tryck på 'Importera Adress' kommer att lägga till denna privata nyckel till plånboken.</translation>
     </message>
     <message>
-        <source>The Civitas address the message was signed with</source>
-        <translation>Civitas adressen meddelandet blev signerat med</translation>
+        <source>The Enox address the message was signed with</source>
+        <translation>Enox adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Civitas address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Civitas adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified Enox address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Enox adressen.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -583,16 +583,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>flik vertygsrad</translation>
     </message>
     <message>
-        <source>Civitas Core</source>
-        <translation>Civitas Kärna</translation>
+        <source>Enox Core</source>
+        <translation>Enox Kärna</translation>
     </message>
     <message>
-        <source>Send coins to a Civitas address</source>
-        <translation>Skicka mynt till en Civitas adress</translation>
+        <source>Send coins to a Enox address</source>
+        <translation>Skicka mynt till en Enox adress</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and civitas: URIs)</source>
-        <translation>Begär betalning (genererar QR kod och civitas: URls)</translation>
+        <source>Request payments (generates QR codes and enox: URIs)</source>
+        <translation>Begär betalning (genererar QR kod och enox: URls)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -603,24 +603,24 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Utforska masternoder</translation>
     </message>
     <message>
-        <source>&amp;About Civitas Core</source>
-        <translation>Om Civitas Kärnan</translation>
+        <source>&amp;About Enox Core</source>
+        <translation>Om Enox Kärnan</translation>
     </message>
     <message>
-        <source>Show information about Civitas Core</source>
-        <translation>Visa information om Civitas Kärnan</translation>
+        <source>Show information about Enox Core</source>
+        <translation>Visa information om Enox Kärnan</translation>
     </message>
     <message>
-        <source>Modify configuration options for Civitas</source>
-        <translation>Ändra konfigurationsval för Civitas</translation>
+        <source>Modify configuration options for Enox</source>
+        <translation>Ändra konfigurationsval för Enox</translation>
     </message>
     <message>
-        <source>Sign messages with your Civitas addresses to prove you own them</source>
-        <translation>Signera meddelanden med din Civitas adress för att visa att du äger dem</translation>
+        <source>Sign messages with your Enox addresses to prove you own them</source>
+        <translation>Signera meddelanden med din Enox adress för att visa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Civitas addresses</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Civitas adressen.</translation>
+        <source>Verify messages to ensure they were signed with specified Enox addresses</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Enox adressen.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -631,8 +631,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kryptera och avkryptera privata nycklar genom användning av lösenfras</translation>
     </message>
     <message>
-        <source>Civitas Core client</source>
-        <translation>Civitas kärn klient</translation>
+        <source>Enox Core client</source>
+        <translation>Enox kärn klient</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -837,15 +837,15 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Civitas Core</source>
-        <translation>Civitas Kärna</translation>
+        <source>Enox Core</source>
+        <translation>Enox Kärna</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Civitas Core</source>
-        <translation>Civitas Kärna</translation>
+        <source>Enox Core</source>
+        <translation>Enox Kärna</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1157,8 +1157,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Civitas address to sign the message with</source>
-        <translation>Civitas adressen för signera meddelandet med</translation>
+        <source>The Enox address to sign the message with</source>
+        <translation>Enox adressen för signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1181,16 +1181,16 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
         <translation>Kopiera den nuvarande signaturen till systemets urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Civitas address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna Civitas adress</translation>
+        <source>Sign the message to prove you own this Enox address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna Enox adress</translation>
     </message>
     <message>
-        <source>The Civitas address the message was signed with</source>
-        <translation>Civitas adressen meddelandet blev signerat med</translation>
+        <source>The Enox address the message was signed with</source>
+        <translation>Enox adressen meddelandet blev signerat med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Civitas address</source>
-        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Civitas adressen.</translation>
+        <source>Verify the message to ensure it was signed with the specified Enox address</source>
+        <translation>Verifiera meddelandet för att säkerställa att de blev signerat med den specifika Enox adressen.</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1232,8 +1232,8 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Civitas Core</source>
-        <translation>Civitas Kärna</translation>
+        <source>Enox Core</source>
+        <translation>Enox Kärna</translation>
     </message>
     </context>
 <context>
@@ -1419,7 +1419,7 @@ Ange en lösenfras i den mellersta boxen. Tryck kryptera för att beräkna den k
     <name>ZPhrControlDialog</name>
     </context>
 <context>
-    <name>civitas-core</name>
+    <name>enox-core</name>
     <message>
         <source>Error</source>
         <translation>Fel</translation>

@@ -1,19 +1,19 @@
 [Unit]
-Description=Civitas's distributed currency daemon
+Description=Enox's distributed currency daemon
 After=network.target
 
 [Service]
-User=civitas
-Group=civitas
+User=enox
+Group=enox
 
 Type=forking
-PIDFile=/var/lib/civitasd/civitasd.pid
+PIDFile=/var/lib/enoxd/enoxd.pid
 
-ExecStart=/usr/bin/civitasd -daemon -pid=/var/lib/civitasd/civitasd.pid \
-          -conf=/etc/civitas/civitas.conf -datadir=/var/lib/civitasd
+ExecStart=/usr/bin/enoxd -daemon -pid=/var/lib/enoxd/enoxd.pid \
+          -conf=/etc/enox/enox.conf -datadir=/var/lib/enoxd
 
-ExecStop=-/usr/bin/civitas-cli -conf=/etc/civitas/civitas.conf \
-         -datadir=/var/lib/civitasd stop
+ExecStop=-/usr/bin/enox-cli -conf=/etc/enox/enox.conf \
+         -datadir=/var/lib/enoxd stop
 
 Restart=always
 PrivateTmp=true

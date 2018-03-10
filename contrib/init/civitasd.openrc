@@ -2,24 +2,24 @@
 
 # backward compatibility for existing gentoo layout
 #
-if [ -d "/var/lib/civitas/.civitas" ]; then
-	BITCOIND_DEFAULT_DATADIR="/var/lib/civitas/.civitas"
+if [ -d "/var/lib/enox/.enox" ]; then
+	BITCOIND_DEFAULT_DATADIR="/var/lib/enox/.enox"
 else
-	BITCOIND_DEFAULT_DATADIR="/var/lib/civitasd"
+	BITCOIND_DEFAULT_DATADIR="/var/lib/enoxd"
 fi
 
-BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/civitas/civitas.conf}
-BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/civitasd}
-BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/civitasd.pid}
+BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/enox/enox.conf}
+BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/enoxd}
+BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/enoxd.pid}
 BITCOIND_DATADIR=${BITCOIND_DATADIR:-${BITCOIND_DEFAULT_DATADIR}}
-BITCOIND_USER=${BITCOIND_USER:-civitas}
-BITCOIND_GROUP=${BITCOIND_GROUP:-civitas}
-BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/civitasd}
+BITCOIND_USER=${BITCOIND_USER:-enox}
+BITCOIND_GROUP=${BITCOIND_GROUP:-enox}
+BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/enoxd}
 
-name="Civitas Core Daemon"
-description="Civitas crypto-currency p2p network daemon"
+name="Enox Core Daemon"
+description="Enox crypto-currency p2p network daemon"
 
-command="/usr/bin/civitasd"
+command="/usr/bin/enoxd"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
 		-conf=\"${BITCOIND_CONFIGFILE}\" \
 		-datadir=\"${BITCOIND_DATADIR}\" \
@@ -65,7 +65,7 @@ checkconfig()
 {
 	if ! grep -qs '^rpcpassword=' "${BITCOIND_CONFIGFILE}" ; then
 		eerror ""
-		eerror "ERROR: You must set a secure rpcpassword to run civitasd."
+		eerror "ERROR: You must set a secure rpcpassword to run enoxd."
 		eerror "The setting must appear in ${BITCOIND_CONFIGFILE}"
 		eerror ""
 		eerror "This password is security critical to securing wallets "
@@ -78,7 +78,7 @@ checkconfig()
 		eerror "It is also recommended that you also set alertnotify so you are "
 		eerror "notified of problems:"
 		eerror ""
-		eerror "ie: alertnotify=echo %%s | mail -s \"Civitas Alert\"" \
+		eerror "ie: alertnotify=echo %%s | mail -s \"Enox Alert\"" \
 			"admin@foo.com"
 		eerror ""
 		return 1

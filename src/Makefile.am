@@ -66,15 +66,15 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += civitasd
+  bin_PROGRAMS += enoxd
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += civitas-cli civitas-tx
+  bin_PROGRAMS += enox-cli enox-tx
 endif
 
 .PHONY: FORCE
-# civitas core #
+# enox core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   accumulators.h \
@@ -190,7 +190,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between civitasd and civitas-qt
+# server: shared between enoxd and enox-qt
 libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_SOURCES = \
   addrman.cpp \
@@ -236,7 +236,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between civitasd and civitas-qt, but only linked
+# wallet: shared between enoxd and enox-qt, but only linked
 # when wallet enabled
 
 libbitcoin_wallet_a_CFLAGS = -fPIC
@@ -356,7 +356,7 @@ libzerocoin_libbitcoin_zerocoin_a_SOURCES = \
   libzerocoin/Params.cpp \
   libzerocoin/SerialNumberSignatureOfKnowledge.cpp
 
-# common: shared between civitasd, and civitas-qt and non-server tools
+# common: shared between enoxd, and enox-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_common_a_SOURCES = \
   accumulators.cpp \
@@ -416,7 +416,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-# cli: shared between civitas-cli and civitas-qt
+# cli: shared between enox-cli and enox-qt
 libbitcoin_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_SOURCES = \
   rpcclient.cpp \
@@ -426,7 +426,7 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-civitasd_LDADD = \
+enoxd_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UNIVALUE) \
@@ -438,26 +438,26 @@ civitasd_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-civitasd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+enoxd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-civitasd_LDADD += libbitcoin_wallet.a
+enoxd_LDADD += libbitcoin_wallet.a
 endif
-civitasd_SOURCES = civitasd.cpp
+enoxd_SOURCES = enoxd.cpp
 #
 
 if TARGET_WINDOWS
-civitasd_SOURCES += civitasd-res.rc
+enoxd_SOURCES += enoxd-res.rc
 endif
 
-civitasd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
-civitasd_CPPFLAGS = $(BITCOIN_INCLUDES)
-civitasd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+enoxd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
+enoxd_CPPFLAGS = $(BITCOIN_INCLUDES)
+enoxd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 
-# civitas-cli binary #
-civitas_cli_LDADD = \
+# enox-cli binary #
+enox_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBBITCOIN_UTIL) \
   $(BOOST_LIBS) \
@@ -465,14 +465,14 @@ civitas_cli_LDADD = \
   $(CRYPTO_LIBS) \
   $(EVENT_LIBS)
 
-civitas_cli_SOURCES = \
-  civitas-cli.cpp
+enox_cli_SOURCES = \
+  enox-cli.cpp
 
-civitas_cli_CPPFLAGS = $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+enox_cli_CPPFLAGS = $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
 #
 
-# civitas-tx binary #
-civitas_tx_LDADD = \
+# enox-tx binary #
+enox_tx_LDADD = \
   $(LIBBITCOIN_UNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_ZEROCOIN) \
@@ -482,15 +482,15 @@ civitas_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-civitas_tx_SOURCES = civitas-tx.cpp
-civitas_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+enox_tx_SOURCES = enox-tx.cpp
+enox_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-civitas_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+enox_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-civitas_cli_SOURCES += civitas-cli-res.rc
+enox_cli_SOURCES += enox-cli-res.rc
 endif
-civitas_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+enox_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h

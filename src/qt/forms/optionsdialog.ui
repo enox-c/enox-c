@@ -30,10 +30,10 @@
        <item>
         <widget class="QCheckBox" name="bitcoinAtStartup">
          <property name="toolTip">
-          <string>Automatically start Civitas after logging in to the system.</string>
+          <string>Automatically start Enox after logging in to the system.</string>
          </property>
          <property name="text">
-          <string>&amp;Start Civitas on system login</string>
+          <string>&amp;Start Enox on system login</string>
          </property>
         </widget>
        </item>
@@ -135,10 +135,10 @@
          <item>
           <widget class="QLabel" name="percentage_label">
            <property name="toolTip">
-            <string>Percentage of incoming CIV which get automatically converted to zCIV via Zerocoin Protocol (min: 10%)</string>
+            <string>Percentage of incoming ENX which get automatically converted to zENX via Zerocoin Protocol (min: 10%)</string>
            </property>
            <property name="text">
-            <string>Percentage of autominted zCIV</string>
+            <string>Percentage of autominted zENX</string>
            </property>
           </widget>
          </item>
@@ -168,10 +168,10 @@
             </size>
            </property>
            <property name="toolTip">
-            <string>Wait with automatic conversion to Zerocoin until enough CIV for this denomination is available</string>
+            <string>Wait with automatic conversion to Zerocoin until enough ENX for this denomination is available</string>
            </property>
            <property name="text">
-            <string>Preferred Automint zCIV Denomination</string>
+            <string>Preferred Automint zENX Denomination</string>
            </property>
           </widget>
          </item>
@@ -184,7 +184,7 @@
             </size>
            </property>
            <property name="toolTip">
-            <string>Wait with automatic conversion to Zerocoin until enough CIV for this denomination is available</string>
+            <string>Wait with automatic conversion to Zerocoin until enough ENX for this denomination is available</string>
            </property>
            <property name="maxVisibleItems">
             <number>9</number>
@@ -265,7 +265,7 @@
        <item>
         <widget class="QCheckBox" name="mapPortUpnp">
          <property name="toolTip">
-          <string>Automatically open the Civitas client port on the router. This only works when your router supports UPnP and it is enabled.</string>
+          <string>Automatically open the Enox client port on the router. This only works when your router supports UPnP and it is enabled.</string>
          </property>
          <property name="text">
           <string>Map port using &amp;UPnP</string>
@@ -285,7 +285,7 @@
        <item>
         <widget class="QCheckBox" name="connectSocks">
          <property name="toolTip">
-          <string>Connect to the Civitas network through a SOCKS5 proxy.</string>
+          <string>Connect to the Enox network through a SOCKS5 proxy.</string>
          </property>
          <property name="text">
           <string>&amp;Connect through SOCKS5 proxy (default proxy):</string>
@@ -451,7 +451,7 @@
          <item>
           <widget class="QValueComboBox" name="lang">
            <property name="toolTip">
-            <string>The user interface language can be set here. This setting will take effect after restarting Civitas.</string>
+            <string>The user interface language can be set here. This setting will take effect after restarting Enox.</string>
            </property>
           </widget>
          </item>
@@ -473,7 +473,7 @@
          </property>
          <property name="text">
           <string>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/civitas-project/civitas-project-translations</string>
+https://www.transifex.com/enox-project/enox-project-translations</string>
          </property>
          <property name="wordWrap">
           <bool>true</bool>

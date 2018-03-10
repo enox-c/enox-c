@@ -1,25 +1,25 @@
-# /etc/conf.d/civitasd: config file for /etc/init.d/civitasd
+# /etc/conf.d/enoxd: config file for /etc/init.d/enoxd
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/civitas/civitas.conf"
+#BITCOIND_CONFIGFILE="/etc/enox/enox.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/civitasd"
+#BITCOIND_PIDDIR="/var/run/enoxd"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/civitasd.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/enoxd.pid"
 
-# Where to write civitasd data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/civitasd"
+# Where to write enoxd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/enoxd"
 
-# User and group to own civitasd process
-#BITCOIND_USER="civitas"
-#BITCOIND_GROUP="civitas"
+# User and group to own enoxd process
+#BITCOIND_USER="enox"
+#BITCOIND_GROUP="enox"
 
-# Path to civitasd executable
-#BITCOIND_BIN="/usr/bin/civitasd"
+# Path to enoxd executable
+#BITCOIND_BIN="/usr/bin/enoxd"
 
-# Nice value to run civitasd under
+# Nice value to run enoxd under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

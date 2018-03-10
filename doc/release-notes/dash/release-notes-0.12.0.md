@@ -100,4 +100,4 @@ AlexMomo
 snogcel
 bertlebbert
 
-As well as everyone that helped translating on [Transifex](https://www.transifex.com/civitas-project/civitas-project-translations).
+As well as everyone that helped translating on [Transifex](https://www.transifex.com/enox-project/enox-project-translations).

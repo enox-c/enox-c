@@ -6,12 +6,12 @@ reset-files.bash
 *.tar.gz
 
 *.exe
-src/civitas
-src/civitasd
-src/civitas-cli
-src/civitas-tx
-src/test/test_civitas
-src/qt/test/test_civitas-qt
+src/enox
+src/enoxd
+src/enox-cli
+src/enox-tx
+src/test/test_enox
+src/qt/test/test_enox-qt
 src/test/.deps
 *.Po
 
@@ -39,8 +39,8 @@ confdefs.h
 conftest.cpp
 conftest.err
 libtool
-src/config/civitas-config.h
-src/config/civitas-config.h.in
+src/config/enox-config.h
+src/config/enox-config.h.in
 src/config/stamp-h1
 share/setup.nsi
 share/qt/Info.plist
@@ -65,7 +65,7 @@ src/qt/test/moc*.cpp
 *.pyc
 *.o
 *.o-*
-.civitas
+.enox
 *.a
 *.pb.cc
 *.pb.h
@@ -84,12 +84,12 @@ src/qt/test/moc*.cpp
 # Compilation and Qt preprocessor part
 *.qm
 /Makefile
-civitas-qt
-civitas-Qt.app
+enox-qt
+enox-Qt.app
 
 # Unit-tests
 Makefile.test
-civitas-qt_test
+enox-qt_test
 src/test/buildenv.py
 
 # Resources cpp
@@ -105,7 +105,7 @@ build
 #lcov
 *.gcno
 /*.info
-test_civitas.coverage/
+test_enox.coverage/
 total.coverage/
 coverage_percent.txt
 

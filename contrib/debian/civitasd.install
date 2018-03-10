@@ -1,2 +1,2 @@
-usr/local/bin/civitasd usr/bin
-usr/local/bin/civitas-cli usr/bin
+usr/local/bin/enoxd usr/bin
+usr/local/bin/enox-cli usr/bin

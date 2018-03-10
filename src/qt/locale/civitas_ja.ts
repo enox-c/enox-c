@@ -266,6 +266,6 @@
     <name>ZPhrControlDialog</name>
     </context>
 <context>
-    <name>civitas-core</name>
+    <name>enox-core</name>
     </context>
 </TS>

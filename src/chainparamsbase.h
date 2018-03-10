@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between civitas-cli and civitasd)
- * of a given instance of the Civitas system.
+ * CBaseChainParams defines the base parameters (shared between enox-cli and enoxd)
+ * of a given instance of the Enox system.
  */
 class CBaseChainParams
 {

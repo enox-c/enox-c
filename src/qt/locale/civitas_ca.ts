@@ -62,12 +62,12 @@
         <translation>Adreces de recepció</translation>
     </message>
     <message>
-        <source>These are your Civitas addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Aquestes són les teves adreces Civitas per fer enviar pagaments. Sempre comprova l'import i l'adreça de recepció abans d'enviar les monedes.</translation>
+        <source>These are your Enox addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Aquestes són les teves adreces Enox per fer enviar pagaments. Sempre comprova l'import i l'adreça de recepció abans d'enviar les monedes.</translation>
     </message>
     <message>
-        <source>These are your Civitas addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Aquestes són les teves adreces Civitas per rebre pagaments. Es recomana utilitzar noves adreces de recepció per cada transacció.</translation>
+        <source>These are your Enox addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Aquestes són les teves adreces Enox per rebre pagaments. Es recomana utilitzar noves adreces de recepció per cada transacció.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,16 +168,16 @@
         <translation>Confirma l'encriptació del moneder</translation>
     </message>
     <message>
-        <source>Civitas will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CIVs from being stolen by malware infecting your computer.</source>
-        <translation>Civitas es tancarà per finalitzar el procés d'encriptació. Recorda que encriptant el teu moneder no protegeix els teus CIV de ser robats si el teu ordinador està infectat amb programari maliciós.</translation>
+        <source>Enox will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ENXs from being stolen by malware infecting your computer.</source>
+        <translation>Enox es tancarà per finalitzar el procés d'encriptació. Recorda que encriptant el teu moneder no protegeix els teus ENX de ser robats si el teu ordinador està infectat amb programari maliciós.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Estàs segur que vols encriptar el moneder?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CIV&lt;/b&gt;!</source>
-        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES CIVS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ENX&lt;/b&gt;!</source>
+        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES ENXS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -418,12 +418,12 @@
         <translation>A&amp;juda</translation>
     </message>
     <message>
-        <source>Civitas Core</source>
-        <translation>Civitas Core</translation>
+        <source>Enox Core</source>
+        <translation>Enox Core</translation>
     </message>
     <message>
-        <source>Send coins to a Civitas address</source>
-        <translation>Envia monedes a una adreça Civitas</translation>
+        <source>Send coins to a Enox address</source>
+        <translation>Envia monedes a una adreça Enox</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -434,8 +434,8 @@
         <translation>&amp;Masternodes</translation>
     </message>
     <message>
-        <source>&amp;About Civitas Core</source>
-        <translation>&amp;Sobre Civitas Core</translation>
+        <source>&amp;About Enox Core</source>
+        <translation>&amp;Sobre Enox Core</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -458,12 +458,12 @@
         <translation>Obre el fitxer de configuració del Masternode</translation>
     </message>
     <message>
-        <source>Civitas Core client</source>
-        <translation>Client Civitas core</translation>
+        <source>Enox Core client</source>
+        <translation>Client Enox core</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Civitas network</source>
-        <translation><numerusform>%n connexió activa a la xarxa Civitas</numerusform><numerusform>%n connexions actives a la xarxa Civitas</numerusform></translation>
+        <source>%n active connection(s) to Enox network</source>
+        <translation><numerusform>%n connexió activa a la xarxa Enox</numerusform><numerusform>%n connexions actives a la xarxa Enox</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -814,8 +814,8 @@
         <translation>Edita l'adreça d'enviament</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Civitas address.</source>
-        <translation>L'adreça introduïda "%1" no és una adreça Civitas vàlida.</translation>
+        <source>The entered address "%1" is not a valid Enox address.</source>
+        <translation>L'adreça introduïda "%1" no és una adreça Enox vàlida.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -860,16 +860,16 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>Civitas Core</source>
-        <translation>Civitas Core</translation>
+        <source>Enox Core</source>
+        <translation>Enox Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Civitas Core</source>
-        <translation>Sobre Civitas Core</translation>
+        <source>About Enox Core</source>
+        <translation>Sobre Enox Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -915,12 +915,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to Civitas Core.</source>
-        <translation>Benvingut a Civitas Core.</translation>
+        <source>Welcome to Enox Core.</source>
+        <translation>Benvingut a Enox Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Civitas Core will store its data.</source>
-        <translation>Al ser el primer cop que s'inicia el programa, pots escollir on es desaran les dades del Civitas Core.</translation>
+        <source>As this is the first time the program is launched, you can choose where Enox Core will store its data.</source>
+        <translation>Al ser el primer cop que s'inicia el programa, pots escollir on es desaran les dades del Enox Core.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -931,8 +931,8 @@
         <translation>Usar una carpeta de dades personalitzada:</translation>
     </message>
     <message>
-        <source>Civitas Core</source>
-        <translation>Civitas Core</translation>
+        <source>Enox Core</source>
+        <translation>Enox Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1142,24 +1142,24 @@
         <translation>Si us plau, selecciona un nivell de privacitat.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 CIV</source>
-        <translation>Utilitza 2 masternodes diferents per mesclar fons de fins a 10000 CIV</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 ENX</source>
+        <translation>Utilitza 2 masternodes diferents per mesclar fons de fins a 10000 ENX</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 CIV</source>
-        <translation>Utilitza 8 masternodes diferents per mesclar fons de fins a 10000 CIV</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 ENX</source>
+        <translation>Utilitza 8 masternodes diferents per mesclar fons de fins a 10000 ENX</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Utilitza 16 masternodes diferents</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 CIV to anonymize 10000 CIV</source>
-        <translation>Aquesta opció és la més ràpida i té un cost d'uns ~0.025 CIV per anonimitzar 10000 CIV</translation>
+        <source>This option is the quickest and will cost about ~0.025 ENX to anonymize 10000 ENX</source>
+        <translation>Aquesta opció és la més ràpida i té un cost d'uns ~0.025 ENX per anonimitzar 10000 ENX</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 CIV to anonymize 10000 CIV</source>
-        <translation>Aquesta opció és moderadament ràpida i té un cost d'uns 0.05 CIV per anonimitzar 10000 CIV</translation>
+        <source>This option is moderately fast and will cost about 0.05 ENX to anonymize 10000 ENX</source>
+        <translation>Aquesta opció és moderadament ràpida i té un cost d'uns 0.05 ENX per anonimitzar 10000 ENX</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -1208,8 +1208,8 @@
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start Civitas after logging in to the system.</source>
-        <translation>Inicia Civitas automàticament després d'identificar-te en el sistema.</translation>
+        <source>Automatically start Enox after logging in to the system.</source>
+        <translation>Inicia Enox automàticament després d'identificar-te en el sistema.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1271,12 +1271,12 @@
         <translation>Total:</translation>
     </message>
     <message>
-        <source>CIV:</source>
-        <translation>CIV:</translation>
+        <source>ENX:</source>
+        <translation>ENX:</translation>
     </message>
     <message>
-        <source>zCIV:</source>
-        <translation>zCIV:</translation>
+        <source>zENX:</source>
+        <translation>zENX:</translation>
     </message>
     <message>
         <source>0 %</source>
@@ -1304,20 +1304,20 @@
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>Zerocoin CIV (zCIV)</source>
-        <translation>Zerocoin CIV (zCIV)</translation>
+        <source>Zerocoin ENX (zENX)</source>
+        <translation>Zerocoin ENX (zENX)</translation>
     </message>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zCIV</source>
-        <translation>zCIV</translation>
+        <source>zENX</source>
+        <translation>zENX</translation>
     </message>
     <message>
-        <source>0.000 000 00 CIV</source>
-        <translation>0.000 000 00 CIV</translation>
+        <source>0.000 000 00 ENX</source>
+        <translation>0.000 000 00 ENX</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1332,8 +1332,8 @@
         <translation>Import:</translation>
     </message>
     <message>
-        <source>0 zCIV</source>
-        <translation>0 zCIV</translation>
+        <source>0 zENX</source>
+        <translation>0 zENX</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1719,8 +1719,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Civitas Core is shutting down...</source>
-        <translation>Civitas Core s'està tancant...</translation>
+        <source>Enox Core is shutting down...</source>
+        <translation>Enox Core s'està tancant...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1785,8 +1785,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Civitas Core</source>
-        <translation>Civitas Core</translation>
+        <source>Enox Core</source>
+        <translation>Enox Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1984,7 +1984,7 @@
     </message>
     </context>
 <context>
-    <name>civitas-core</name>
+    <name>enox-core</name>
     <message>
         <source>Can't mix while sync in progress.</source>
         <translation>No es pot mesclar mentre s'està sincronitzant.</translation>

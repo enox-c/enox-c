@@ -38,12 +38,12 @@
         <file alias="tx_input">res/icons/tx_input.png</file>
         <file alias="tx_output">res/icons/tx_output.png</file>
         <file alias="tx_inout">res/icons/tx_inout.png</file>
-        <file alias="unit_civitas">res/icons/unit_civitas.png</file>
-        <file alias="unit_mcivitas">res/icons/unit_mcivitas.png</file>
-        <file alias="unit_ucivitas">res/icons/unit_ucivitas.png</file>
-        <file alias="unit_tcivitas">res/icons/unit_tcivitas.png</file>
-        <file alias="unit_tmcivitas">res/icons/unit_tmcivitas.png</file>
-        <file alias="unit_tucivitas">res/icons/unit_tucivitas.png</file>
+        <file alias="unit_enox">res/icons/unit_enox.png</file>
+        <file alias="unit_menox">res/icons/unit_menox.png</file>
+        <file alias="unit_uenox">res/icons/unit_uenox.png</file>
+        <file alias="unit_tenox">res/icons/unit_tenox.png</file>
+        <file alias="unit_tmenox">res/icons/unit_tmenox.png</file>
+        <file alias="unit_tuenox">res/icons/unit_tuenox.png</file>
         <file alias="lock_closed">res/icons/lock_closed.png</file>
         <file alias="lock_open">res/icons/lock_open.png</file>
         <file alias="key">res/icons/key.png</file>
@@ -59,7 +59,7 @@
     </qresource>
     <qresource prefix="/images">
         <file alias="about">res/images/about.png</file>
-        <file alias="civitas_logo_horizontal">res/images/civitas_logo_horizontal.png</file>
+        <file alias="enox_logo_horizontal">res/images/enox_logo_horizontal.png</file>
         <file alias="downArrow">res/images/downArrow.png</file>
         <file alias="downArrow_small">res/images/downArrow_small.png</file>
         <file alias="upArrow_small">res/images/upArrow_small.png</file>

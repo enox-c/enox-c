@@ -76,7 +76,7 @@ private:
 
     int nDisplayUnit;
     bool updateLabel(const QString& address);
-    void sendzCIV();
+    void sendzENX();
 
 private slots:
     void on_payTo_textChanged(const QString& address);
@@ -96,10 +96,10 @@ private slots:
 //    void coinControlClipboardLowOutput();
 //    void coinControlClipboardChange();
 
-    void on_pushButtonMintzCIV_clicked();
+    void on_pushButtonMintzENX_clicked();
     void on_pushButtonMintReset_clicked();
     void on_pushButtonSpentReset_clicked();
-    void on_pushButtonSpendzCIV_clicked();
+    void on_pushButtonSpendzENX_clicked();
     void on_pushButtonZCivControl_clicked();
     void on_pasteButton_clicked();
     void updateDisplayUnit();

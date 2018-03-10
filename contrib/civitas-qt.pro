@@ -78,7 +78,7 @@ HEADERS += src/activemasternode.h \
            src/crypter.h \
            src/obfuscation-relay.h \
            src/obfuscation.h \
-           src/civitas-config.h \
+           src/enox-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -131,7 +131,7 @@ HEADERS += src/activemasternode.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/civitas-config.h \
+           src/config/enox-config.h \
            src/crypto/common.h \
            src/crypto/haval_helper.c \
            src/crypto/hmac_sha256.h \
@@ -336,7 +336,7 @@ HEADERS += src/activemasternode.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/civitas.moc \
+           src/qt/enox.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
            src/qt/rpcconsole.moc \
@@ -377,9 +377,9 @@ SOURCES += src/activemasternode.cpp \
            src/crypter.cpp \
            src/obfuscation-relay.cpp \
            src/obfuscation.cpp \
-           src/civitas-cli.cpp \
-           src/civitas-tx.cpp \
-           src/civitas.cpp \
+           src/enox-cli.cpp \
+           src/enox-tx.cpp \
+           src/enox.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
            src/ecwrapper.cpp \
@@ -474,8 +474,8 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
            src/qt/obfuscationconfig.cpp \
-           src/qt/civitas.cpp \
-           src/qt/civitasstrings.cpp \
+           src/qt/enox.cpp \
+           src/qt/enoxstrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
            src/qt/intro.cpp \
@@ -553,7 +553,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
-           src/test/test_civitas.cpp \
+           src/test/test_enox.cpp \
            src/test/timedata_tests.cpp \
            src/test/transaction_tests.cpp \
            src/test/uint256_tests.cpp \
@@ -644,21 +644,21 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/civitas.qrc src/qt/civitas_locale.qrc
+RESOURCES += src/qt/enox.qrc src/qt/enox_locale.qrc
 
-TRANSLATIONS += src/qt/locale/civitas_bg.ts \
-                src/qt/locale/civitas_de.ts \
-                src/qt/locale/civitas_en.ts \
-                src/qt/locale/civitas_es.ts \
-                src/qt/locale/civitas_fi.ts \
-                src/qt/locale/civitas_fr.ts \
-                src/qt/locale/civitas_it.ts \
-                src/qt/locale/civitas_ja.ts \
-                src/qt/locale/civitas_pl.ts \
-                src/qt/locale/civitas_pt.ts \
-                src/qt/locale/civitas_ru.ts \
-                src/qt/locale/civitas_sk.ts \
-                src/qt/locale/civitas_sv.ts \
-                src/qt/locale/civitas_vi.ts \
-                src/qt/locale/civitas_zh_CN.ts \
-                src/qt/locale/civitas_zh_TW.ts
+TRANSLATIONS += src/qt/locale/enox_bg.ts \
+                src/qt/locale/enox_de.ts \
+                src/qt/locale/enox_en.ts \
+                src/qt/locale/enox_es.ts \
+                src/qt/locale/enox_fi.ts \
+                src/qt/locale/enox_fr.ts \
+                src/qt/locale/enox_it.ts \
+                src/qt/locale/enox_ja.ts \
+                src/qt/locale/enox_pl.ts \
+                src/qt/locale/enox_pt.ts \
+                src/qt/locale/enox_ru.ts \
+                src/qt/locale/enox_sk.ts \
+                src/qt/locale/enox_sv.ts \
+                src/qt/locale/enox_vi.ts \
+                src/qt/locale/enox_zh_CN.ts \
+                src/qt/locale/enox_zh_TW.ts

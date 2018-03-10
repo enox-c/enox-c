@@ -12,7 +12,7 @@
 #include "spork.h"
 
 //
-// Bootup the Masternode, look for a 10000 CIV input and register on the network
+// Bootup the Masternode, look for a 10000 ENX input and register on the network
 //
 void CActiveMasternode::ManageStatus()
 {
