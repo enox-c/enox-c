@@ -158,11 +158,11 @@ public:
         assert(hashGenesisBlock == uint256("0x00000186b7f1ac681548e1be4b72e1f5e489a2c3a7d0650eed27ec7c286b6e90"));
         assert(genesis.hashMerkleRoot == uint256("0xb8fcd176f24525bbc1be9bd59a9008f372a39c9f0c8d41c9598d27c6b37077f6"));
 
-        vSeeds.push_back(CDNSSeedData("45.76.61.28", "207.148.0.129"));         // Single node address
-        vSeeds.push_back(CDNSSeedData("209.250.240.94", "45.77.239.30"));       // Single node address
-        vSeeds.push_back(CDNSSeedData("45.77.176.204", "45.76.226.204"));       // Single node address
+        vSeeds.push_back(CDNSSeedData("seed1.enox.org", "45.77.227.156"));         // Single node address
+        vSeeds.push_back(CDNSSeedData("seed2.enox.org", "45.77.229.181"));       // Single node address
+        // vSeeds.push_back(CDNSSeedData("45.77.176.204", "45.76.226.204"));       // Single node address
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 28);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 33); //ENOX Addresses start with E
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 8);
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 212);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x02)(0x2D)(0x25)(0x33).convert_to_container<std::vector<unsigned char> >();
