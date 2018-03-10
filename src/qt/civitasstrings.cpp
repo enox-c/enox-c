@@ -226,10 +226,10 @@ QT_TRANSLATE_NOOP("enox-core", ""
 QT_TRANSLATE_NOOP("enox-core", ""
 "You must specify a masternodeprivkey in the configuration. Please see "
 "documentation for help."),
-QT_TRANSLATE_NOOP("enox-core", "(18843 could be used only on mainnet)"),
+QT_TRANSLATE_NOOP("enox-core", "(80589 could be used only on mainnet)"),
 QT_TRANSLATE_NOOP("enox-core", "(default: %s)"),
 QT_TRANSLATE_NOOP("enox-core", "(default: 1)"),
-QT_TRANSLATE_NOOP("enox-core", "(must be 18843 for mainnet)"),
+QT_TRANSLATE_NOOP("enox-core", "(must be 80589 for mainnet)"),
 QT_TRANSLATE_NOOP("enox-core", "<category> can be:"),
 QT_TRANSLATE_NOOP("enox-core", "Accept command line and JSON-RPC commands"),
 QT_TRANSLATE_NOOP("enox-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),

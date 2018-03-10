@@ -4039,8 +4039,8 @@ For eksempel: alertnotify=Echo %% | mail - s "Enox ALARM!" e-mail@administrator.
         <translation>Der skal angives en masternodeprivkey i konfigurationen. For mere information, se i dokumentationen.</translation>
     </message>
     <message>
-        <source>(18843 could be used only on mainnet)</source>
-        <translation>(18843 kunne kun bruges på hovednettet)</translation>
+        <source>(80589 could be used only on mainnet)</source>
+        <translation>(80589 kunne kun bruges på hovednettet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4051,8 +4051,8 @@ For eksempel: alertnotify=Echo %% | mail - s "Enox ALARM!" e-mail@administrator.
         <translation>(default: 1)</translation>
     </message>
     <message>
-        <source>(must be 18843 for mainnet)</source>
-        <translation>(skal være 18843 for hovednettet)</translation>
+        <source>(must be 80589 for mainnet)</source>
+        <translation>(skal være 80589 for hovednettet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>

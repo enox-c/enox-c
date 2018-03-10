@@ -4527,8 +4527,8 @@ Beispiel: alertnotify=echo %%s | mail -s "Enox Alert" admin@foo.com
         <translation>Sie müssen einen privaten Masternode-Schlüssel in der Konfiguration festlegen. Bitte nutzen Sie die Dokumentation zwecks Hilfe.</translation>
     </message>
     <message>
-        <source>(18843 could be used only on mainnet)</source>
-        <translation>(18843 kann nur im Mainnet verwendet werden)</translation>
+        <source>(80589 could be used only on mainnet)</source>
+        <translation>(80589 kann nur im Mainnet verwendet werden)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -4539,8 +4539,8 @@ Beispiel: alertnotify=echo %%s | mail -s "Enox Alert" admin@foo.com
         <translation>(default: 1)</translation>
     </message>
     <message>
-        <source>(must be 18843 for mainnet)</source>
-        <translation>(muss im Mainnet 18843 sein)</translation>
+        <source>(must be 80589 for mainnet)</source>
+        <translation>(muss im Mainnet 80589 sein)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
