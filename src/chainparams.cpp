@@ -100,10 +100,10 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0x63;
-        pchMessageStart[1] = 0x43;
-        pchMessageStart[2] = 0x49;
-        pchMessageStart[3] = 0x56;
+        pchMessageStart[0] = 0x67;
+        pchMessageStart[1] = 0x83;
+        pchMessageStart[2] = 0x29;
+        pchMessageStart[3] = 0x86;
         vAlertPubKey = ParseHex("04bcbf5f4dab42002143f5b25a2e6fd658dd300508c0fd3c890edfa241edcdd224c9fb62d0a3e86ab655c384b598bd3e92d25fee84774060a0d461f0e9483587e5");
         nDefaultPort = 80589;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // Enox starting difficulty is 1 / 2^12
@@ -120,9 +120,9 @@ public:
         nMaxMoneyOut = 21000000 * COIN;
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 3029;
+        nLastPOWBlock = 2;
         nModifierUpdateBlock = 999999999;
-        nZerocoinStartHeight = 3030;
+        nZerocoinStartHeight = 2;
         nAccumulatorStartHeight = 1;
         nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
         nBlockRecalculateAccumulators = ~1; //Trigger a recalculation of accumulators
