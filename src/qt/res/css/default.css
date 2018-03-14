@@ -1,5 +1,5 @@
 /****************************************************************************************/
-/*************** [COLOR CODES] DARK ORANGE:#094e9e LIGHT ORANGE:#4295f4 *****************/
+/*************** [COLOR CODES] DARK BLUE:#094e9e LIGHT BLUE:#4295f4 *****************/
 /****************************************************************************************/
 
 
@@ -163,7 +163,7 @@ background-color:#f2f2f2;
 /****************************************************************************************/
 
 QPushButton { /* Global Button Style */
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #f3a10f, stop: .1 #094e9e, stop: .95 #094e9e, stop: 1 #f3a10f);
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #4295f4, stop: .1 #094e9e, stop: .95 #094e9e, stop: 1 #4295f4);
 border:0;
 border-radius:3px;
 color:#ffffff;
@@ -176,7 +176,7 @@ padding-bottom:5px;
 }
 
 QPushButton:hover {
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #f3a90f, stop: .1 #f39910, stop: .95 #f39910, stop: 1 #f3a90f);
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #62a4ef, stop: .1 #0058bc, stop: .95 #0058bc, stop: 1 #62a4ef );
 }
 
 QPushButton:focus {
@@ -707,7 +707,7 @@ background-color:#4295f4;
 }
 
 QWidget#PrivacyDialog QPushButton {
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #cf8107, stop: .1 #094e9e, stop: .95 #094e9e, stop: 1 #e28901);
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #4295f4, stop: .1 #094e9e, stop: .95 #094e9e, stop: 1 #4295f4);
 border:0;
 border-radius:3px;
 color:#ffffff;
@@ -720,7 +720,7 @@ padding-bottom:5px;
 }
 
 QWidget#PrivacyDialog QPushButton:hover {
-background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #f3a90f, stop: .1 #f39910, stop: .95 #f39910, stop: 1 #f3a90f);
+background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: .01 #62a4ef, stop: .1 #0058bc, stop: .95 #0058bc, stop: 1 #62a4ef);
 }
 
 QWidget#PrivacyDialog QPushButton:focus {
@@ -1213,7 +1213,7 @@ min-height:100px;
 margin-right:20px;
 margin-left:0;
 margin-top:0;
-background-image: url(':/images/civitas_logo_horizontal');
+background-image: url(':/images/enox_logo_horizontal');
 background-repeat:none;
 }
 
