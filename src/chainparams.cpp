@@ -139,7 +139,7 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
          *   vMerkleTree: e0028e
          */
-        const char* pszTimestamp = "Barclays strikes banking deal with major cryptocurrency exchange Coinbase";
+        const char* pszTimestamp = "CNBC Dec 27 2017 JPMorgan pays 2.8 million fine over improper safeguards for customers";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -150,7 +150,7 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1521027175;
+        genesis.nTime = 1515606140;
         genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 252106;
 
@@ -239,7 +239,7 @@ public:
         nBlockLastGoodCheckpoint = ~1; //Last valid accumulator checkpoint
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1521027175;
+        genesis.nTime = 1515616140;
         genesis.nNonce = 79855;
 
         bnProofOfWorkLimit = ~uint256(0) >> 12;
@@ -249,9 +249,9 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        // vSeeds.push_back(CDNSSeedData("45.76.61.28", "207.148.0.129"));         // Single node address
-        // vSeeds.push_back(CDNSSeedData("209.250.240.94", "45.77.239.30"));       // Single node address
-        // vSeeds.push_back(CDNSSeedData("45.77.176.204", "45.76.226.204"));       // Single node address
+        vSeeds.push_back(CDNSSeedData("45.76.61.28", "207.148.0.129"));         // Single node address
+        vSeeds.push_back(CDNSSeedData("209.250.240.94", "45.77.239.30"));       // Single node address
+        vSeeds.push_back(CDNSSeedData("45.77.176.204", "45.76.226.204"));       // Single node address
 
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet enox addresses start with 'x' or 'y'
