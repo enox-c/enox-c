@@ -120,9 +120,9 @@ public:
         nMaxMoneyOut = 21000000 * COIN;
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 2;
+        nLastPOWBlock = 3;
         nModifierUpdateBlock = 999999999;
-        nZerocoinStartHeight = 2;
+        nZerocoinStartHeight = 4;
         nAccumulatorStartHeight = 1;
         nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
         nBlockRecalculateAccumulators = ~1; //Trigger a recalculation of accumulators
@@ -158,8 +158,8 @@ public:
         assert(hashGenesisBlock == uint256("0x00000186b7f1ac681548e1be4b72e1f5e489a2c3a7d0650eed27ec7c286b6e90"));
         assert(genesis.hashMerkleRoot == uint256("0xb8fcd176f24525bbc1be9bd59a9008f372a39c9f0c8d41c9598d27c6b37077f6"));
 
-        vSeeds.push_back(CDNSSeedData("seed1.enox.org", "45.77.227.156"));         // Single node address
-        vSeeds.push_back(CDNSSeedData("seed2.enox.org", "45.77.229.181"));       // Single node address
+        vSeeds.push_back(CDNSSeedData("seed1.enox.org", "108.61.175.204"));         // Single node address
+        vSeeds.push_back(CDNSSeedData("seed2.enox.org", "45.32.145.125"));       // Single node address
         // vSeeds.push_back(CDNSSeedData("45.77.176.204", "45.76.226.204"));       // Single node address
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 33); //ENOX Addresses start with E
@@ -232,7 +232,7 @@ public:
         nMasternodeCountDrift = 4;
         nModifierUpdateBlock = 51197; //approx Mon, 17 Apr 2017 04:00:00 GMT
         nMaxMoneyOut = 43199500 * COIN;
-        nZerocoinStartHeight = 3100;
+        nZerocoinStartHeight = 3;
         nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
         nBlockRecalculateAccumulators = ~1; //Trigger a recalculation of accumulators
         nBlockFirstFraudulent = ~1; //First block that bad serials emerged
@@ -249,9 +249,15 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("45.76.61.28", "207.148.0.129"));         // Single node address
-        vSeeds.push_back(CDNSSeedData("209.250.240.94", "45.77.239.30"));       // Single node address
-        vSeeds.push_back(CDNSSeedData("45.77.176.204", "45.76.226.204"));       // Single node address
+
+        //TODO:Add testnet nodeS
+        //Testnet node 1
+         vSeeds.push_back(CDNSSeedData("testnet1.enox.org", "45.32.234.179"));
+           //Testnet node 2
+         vSeeds.push_back(CDNSSeedData("testnet2.enox.org", "209.250.253.166"));        // Single node address
+
+        // vSeeds.push_back(CDNSSeedData("209.250.240.94", "45.77.239.30"));       // Single node address
+        // vSeeds.push_back(CDNSSeedData("45.77.176.204", "45.76.226.204"));       // Single node address
 
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet enox addresses start with 'x' or 'y'

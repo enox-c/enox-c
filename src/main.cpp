@@ -2123,12 +2123,19 @@ int64_t GetBlockValue(int nHeight)
 
     if (Params().NetworkID() == CBaseChainParams::TESTNET) {
         if (nHeight < 200 && nHeight > 0)
-            return 250000 * COIN;
+            return 400000 * COIN;
     }
 
     if (nHeight == 0) {
-        nSubsidy = 400000 * COIN;
-    } else if (nHeight < 518400 && nHeight > 0) {
+        nSubsidy = 1 * COIN;
+    }
+    else if (nHeight == 1){
+        nSubsidy = 200000 * COIN;
+    }
+    else if (nHeight == 2){
+        nSubsidy = 200000 * COIN;
+    }
+     else if (nHeight < 518400 && nHeight > 0) {
         nSubsidy = 10 * COIN;
     } else if (nHeight <= 777600 && nHeight >= 518401) {
         nSubsidy = 5 * COIN;
@@ -2150,16 +2157,16 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
         if (nHeight < 200)
             return 0;
     }
-	
+
 	// 65% for Masternodes
 	if (nHeight < 5 && nHeight > 0) {
 	    ret = blockValue  / 100 * 0;
 	} else {
 		ret = blockValue  / 100 * 65;
-		
+
 	}
-			
-	
+
+
     return ret;
 }
 
@@ -2172,7 +2179,7 @@ bool IsInitialBlockDownload()
     if (lockIBDState)
         return false;
     bool state = (chainActive.Height() < pindexBestHeader->nHeight - 24 * 6 ||
-                  pindexBestHeader->GetBlockTime() < GetTime() - 6 * 60 * 60) && chainActive.Height() > 3030; // ~144 blocks behind -> 2 x fork detection time
+                  pindexBestHeader->GetBlockTime() < GetTime() - 6 * 60 * 60) && chainActive.Height() > 3; // ~144 blocks behind -> 2 x fork detection time
     if (!state)
         lockIBDState = true;
     return state;
